@@ -1,0 +1,46 @@
+FUNNEL MATH CALCULATOR - Lesson 0.3,,,
+"Fill in ONLY the rows marked INPUT. The FORMULA rows calculate by themselves.",,,
+,,,
+SECTION 1: REVENUE,Value,Type,Notes
+Average Order Value (AOV),5000,INPUT,Average revenue from one order or one sale
+,,,
+SECTION 2: COSTS PER ORDER,Value,Type,Notes
+Product cost / COGS,2000,INPUT,What the item or service costs you
+Shipping / delivery,300,INPUT,Your real cost even if you offer free delivery
+Packaging,50,INPUT,Box tape labels
+Payment processing fees,50,INPUT,Card gateway or cash-on-delivery fee
+Platform / marketplace fees,0,INPUT,Only if you sell through a marketplace
+Refund and return allowance,100,INPUT,Average refund cost spread across every order
+Other variable cost,0,INPUT,Anything else that changes with each sale
+TOTAL COST PER ORDER,=SUM(B8:B14),FORMULA,Do not edit
+,,,
+SECTION 3: TRAFFIC,Value,Type,Notes
+Cost per click (CPC),40,INPUT,From your Google Ads account
+Conversion rate percent,2.4,INPUT,Enter 2.4 for 2.4 percent
+,,,
+SECTION 4: LEAD GENERATION,Value,Type,Notes
+Lead to customer rate percent,25,INPUT,Skip this section if you sell online directly
+,,,
+SECTION 5: REPEAT PURCHASE,Value,Type,Notes
+Average orders per customer lifetime,2.5,INPUT,Use real order history not a guess
+Safe percent of LTV you will spend,40,INPUT,Use 30 if cash is tight and 60 if cash is strong
+,,,
+SECTION 6: YOUR RESULTS,Value,Type,Notes
+Contribution margin per order,=B5-B15,FORMULA,The money available to pay for ads
+Margin percent,=B29/B5,FORMULA,Format this cell as a percentage
+BREAKEVEN ROAS,=B5/B29,FORMULA,Below this you lose money
+TARGET ROAS,=B31*1.4,FORMULA,Use this in your bid strategy not the breakeven
+Max CAC first order only,=B29,FORMULA,Safe ceiling for a business with tight cash
+Lifetime value LTV margin based,=B29*B25,FORMULA,Total margin from one customer over time
+Max CAC LTV based,=B34*(B26/100),FORMULA,Aggressive ceiling only if cash flow allows
+Actual cost per sale today,=B18/(B19/100),FORMULA,Cost per click divided by conversion rate
+Profit per sale first order,=B29-B36,FORMULA,Negative means you are losing money
+Max cost per lead,=B33*(B22/100),FORMULA,For lead generation businesses only
+Conversion rate needed to break even,=B18/B29*100,FORMULA,Your page must beat this percentage
+VERDICT,"=IF(B36<B29,""PROFITABLE"",""LOSING MONEY"")",FORMULA,Read this first every time
+,,,
+HOW TO USE,,,
+1. Save a copy for each client or business.,,,
+2. Change only the INPUT rows.,,,
+3. Write the Max CAC number where you can see it daily.,,,
+4. Redo this every 90 days because costs change.,,,

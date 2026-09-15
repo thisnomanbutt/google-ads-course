@@ -1,0 +1,119 @@
+{
+  "reviewedTo": "2026-09-15",
+  "note": "This feed is maintained by hand, not fetched from Google. The page cannot call external services, so nothing here updates on its own. Every entry links to an official Google source — verify against that source before you act on it, and check the sources below for anything newer than the review date above.",
+  "sources": [
+    {
+      "label": "Google Ads Help Centre",
+      "url": "https://support.google.com/google-ads",
+      "note": "Feature documentation and how-to. The most current record of how something works today."
+    },
+    {
+      "label": "Ads & Commerce blog",
+      "url": "https://blog.google/products/ads-commerce/",
+      "note": "Where Google announces new features and major changes first."
+    },
+    {
+      "label": "Google Ads API release notes",
+      "url": "https://developers.google.com/google-ads/api/docs/release-notes",
+      "note": "Often shows a change weeks before it is announced publicly. Worth reading even if you never touch the API."
+    },
+    {
+      "label": "Advertising Policies Help",
+      "url": "https://support.google.com/adspolicy",
+      "note": "Policy updates and the monthly policy change log. Relevant to Lesson 1.5."
+    },
+    {
+      "label": "Google Ads Community",
+      "url": "https://support.google.com/google-ads/community",
+      "note": "Product Experts, and often the first place a rollout is discussed in practice."
+    },
+    {
+      "label": "Skillshop",
+      "url": "https://skillshop.withgoogle.com/",
+      "note": "Official certifications. Free, and a Partner programme requirement (Lesson 10.4)."
+    }
+  ],
+  "entries": [
+    {
+      "id": "ai-overviews",
+      "date": "2024-05",
+      "type": "changed",
+      "title": "AI Overviews change what an informational search is worth",
+      "body": "AI-written answers appear above results for many informational queries, so those searches increasingly resolve without a click. Transactional and local intent are far less affected. The practical response is to move budget toward intent that still requires the user to do something.",
+      "lessons": ["01-01-auction-system-deconstructed.md", "03-01-search-intent-spectrum.md", "08-04-diagnosing-decay.md"],
+      "source": { "label": "Ads & Commerce blog", "url": "https://blog.google/products/ads-commerce/" }
+    },
+    {
+      "id": "consent-mode-v2",
+      "date": "2024-03",
+      "type": "changed",
+      "title": "Consent Mode v2 adds ad_user_data and ad_personalization",
+      "body": "Two signals were added alongside ad_storage and analytics_storage. Consent to store a cookie and consent to send data to Google are now separate questions. Required for Enhanced Conversions and remarketing where EU/UK rules apply.",
+      "lessons": ["07-05-consent-mode-v2.md", "07-01-enhanced-conversions-web.md", "06-06-display-and-remarketing.md"],
+      "source": { "label": "Google Ads Help Centre", "url": "https://support.google.com/google-ads" }
+    },
+    {
+      "id": "similar-audiences-sunset",
+      "date": "2023-08",
+      "type": "sunset",
+      "title": "Similar audiences removed",
+      "body": "Similar audiences were retired across Google Ads. First-party data plus optimised targeting and lookalike segments replaced them. This raised the value of a properly segmented customer list considerably.",
+      "lessons": ["06-07-audiences.md", "12-01-first-party-data-strategy.md", "06-04-demand-gen.md"],
+      "source": { "label": "Google Ads Help Centre", "url": "https://support.google.com/google-ads" }
+    },
+    {
+      "id": "ua-to-ga4",
+      "date": "2023-07",
+      "type": "sunset",
+      "title": "Universal Analytics stopped processing data",
+      "body": "GA4 became the only Google Analytics property that collects data. Event-based rather than session-based, with a different data model and a 14-month default retention that makes the BigQuery export worth setting up early.",
+      "lessons": ["02-02-the-core-stack.md", "07-06-bigquery-pipeline.md"],
+      "source": { "label": "Google Ads Help Centre", "url": "https://support.google.com/google-ads" }
+    },
+    {
+      "id": "data-studio-renamed",
+      "date": "2022-10",
+      "type": "renamed",
+      "title": "Data Studio is now Looker Studio",
+      "body": "A rename only — the free tier and the Google Ads and BigQuery connectors work the same way. Older tutorials still use the previous name.",
+      "lessons": ["08-02-looker-studio-and-reporting.md"],
+      "source": { "label": "Google Ads Help Centre", "url": "https://support.google.com/google-ads" }
+    },
+    {
+      "id": "smart-shopping-to-pmax",
+      "date": "2022-09",
+      "type": "merged",
+      "title": "Smart Shopping and Local campaigns merged into Performance Max",
+      "body": "Both campaign types were folded into PMax. This is why PMax needs deliberate control — brand exclusions, listing groups and profit tiers — rather than being left to run across the whole catalogue.",
+      "lessons": ["06-02-pmax-architecture.md", "06-03-controlling-pmax.md", "06-01-merchant-center-feed-optimization.md"],
+      "source": { "label": "Google Ads Help Centre", "url": "https://support.google.com/google-ads" }
+    },
+    {
+      "id": "eta-sunset",
+      "date": "2022-06",
+      "type": "sunset",
+      "title": "Expanded Text Ads can no longer be created or edited",
+      "body": "Responsive Search Ads became the only search ad format you can build. This is what makes the 15-headline asset framework the unit of creative work rather than writing one fixed ad.",
+      "lessons": ["04-01-responsive-search-ads-framework.md", "04-03-copywriting-and-prompt-engineering.md"],
+      "source": { "label": "Google Ads Help Centre", "url": "https://support.google.com/google-ads" }
+    },
+    {
+      "id": "uac-renamed",
+      "date": "2021-11",
+      "type": "renamed",
+      "title": "Universal App Campaigns are now App campaigns",
+      "body": "A rename, with the goal types since expanded to installs, engagement and in-app actions. Older material still refers to UAC.",
+      "lessons": ["09-04-app-campaigns.md"],
+      "source": { "label": "Google Ads Help Centre", "url": "https://support.google.com/google-ads" }
+    },
+    {
+      "id": "bmm-folded",
+      "date": "2021-07",
+      "type": "merged",
+      "title": "Broad match modifier folded into phrase match",
+      "body": "The +modifier syntax was retired and its behaviour absorbed into phrase match. Match types now signal meaning rather than word presence, which is the basis for the modern broad-match-plus-Smart-Bidding approach.",
+      "lessons": ["03-03-match-types-in-the-ai-era.md", "03-04-negative-system-and-ngram-analysis.md"],
+      "source": { "label": "Google Ads Help Centre", "url": "https://support.google.com/google-ads" }
+    }
+  ]
+}

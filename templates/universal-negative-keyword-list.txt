@@ -1,0 +1,322 @@
+# UNIVERSAL NEGATIVE KEYWORD LIST
+# Companion to Lesson 3.4 — The Negative System & N-Gram Analysis
+#
+# HOW TO USE
+# 1. Read EVERY term before applying. If the business genuinely sells it, remove it.
+#    (A training company must NOT block "course". A wholesaler must NOT block "wholesale".)
+# 2. Copy the relevant sections into Google Ads:
+#    Tools -> Shared library -> Negative keyword lists -> Create list
+# 3. Apply the list to your campaigns.
+# 4. Remember: negatives do NOT include close variants. Plurals and misspellings
+#    must be added separately. This list already includes the common ones.
+# 5. Default match type recommendation: PHRASE for multi-word terms, BROAD for single words.
+#    Review case by case for anything risky.
+#
+# ============================================================
+# SECTION 1: FREE SEEKERS
+# Remove this section if you offer a genuine free trial or freemium product.
+# ============================================================
+free
+freeware
+gratis
+no cost
+no charge
+without paying
+free of cost
+free download
+free version
+free sample
+free trial
+zero cost
+muft
+
+# ============================================================
+# SECTION 2: JOB SEEKERS
+# Safe for almost every business. Rarely needs editing.
+# ============================================================
+job
+jobs
+career
+careers
+vacancy
+vacancies
+hiring
+recruitment
+recruiter
+employment
+salary
+salaries
+wage
+wages
+pay scale
+intern
+internship
+apprentice
+apprenticeship
+cv
+resume
+job description
+work from home job
+part time job
+full time job
+naukri
+rozgar
+
+# ============================================================
+# SECTION 3: LEARNERS AND STUDENTS
+# Remove if you sell education, courses or training.
+# ============================================================
+course
+courses
+class
+classes
+training
+tutorial
+tutorials
+how to make
+how to build
+how to create
+how to become
+learn
+learning
+lesson
+lessons
+teach
+teaching
+certification
+certificate
+diploma
+degree
+exam
+exams
+syllabus
+curriculum
+assignment
+homework
+thesis
+dissertation
+research paper
+case study
+project report
+student
+students
+university
+college
+school project
+
+# ============================================================
+# SECTION 4: DIY AND SELF-SERVICE
+# Remove if you sell parts, kits or materials.
+# ============================================================
+diy
+do it yourself
+homemade
+home made
+make your own
+build your own
+build it yourself
+self install
+self installation
+own hands
+at home remedy
+home remedy
+natural remedy
+without professional
+no professional
+
+# ============================================================
+# SECTION 5: RESEARCHERS AND DEFINITION SEEKERS
+# Level 1 informational intent (Lesson 3.1). Remove selectively if you
+# run a deliberate top-of-funnel strategy with remarketing attached.
+# ============================================================
+meaning
+definition
+define
+what is
+what are
+what does
+why does
+why is
+who invented
+history of
+history
+origin of
+wikipedia
+wiki
+quora
+reddit
+forum
+blog
+article
+news
+pdf
+ebook
+book
+books
+image
+images
+photo
+photos
+picture
+pictures
+video
+youtube
+example
+examples
+list of
+types of
+difference between
+vs wikipedia
+
+# ============================================================
+# SECTION 6: BARGAIN HUNTERS AND SECOND-HAND
+# Remove "cheap" and "discount" only after checking your search term data.
+# These sometimes convert well in price-sensitive markets.
+# ============================================================
+used
+second hand
+secondhand
+2nd hand
+pre owned
+preowned
+refurbished
+reconditioned
+scrap
+broken
+faulty
+damaged
+olx
+ebay
+craigslist
+alibaba
+aliexpress
+daraz used
+free classified
+coupon
+coupon code
+promo code
+discount code
+voucher
+voucher code
+cashback
+
+# ============================================================
+# SECTION 7: WRONG BUSINESS MODEL
+# Apply the opposite of what you are. A retailer blocks wholesale terms.
+# A wholesaler blocks retail terms. Read carefully before applying.
+# ============================================================
+wholesale
+wholesaler
+bulk order
+bulk buy
+distributor
+distributorship
+dealership
+dealer
+franchise
+franchisee
+supplier
+suppliers
+manufacturer
+manufacturers
+factory
+oem
+white label
+reseller
+agent
+agency required
+partnership
+
+# ============================================================
+# SECTION 8: COMPETITOR AND COMPARISON RESEARCH
+# Optional. Only apply if you have decided NOT to run conquesting
+# campaigns (see Lesson 9.6). Add your actual competitor names here.
+# ============================================================
+# [add competitor brand names here, one per line]
+# [add marketplace names you do not want to appear beside]
+
+# ============================================================
+# SECTION 9: SUPPORT AND EXISTING CUSTOMERS
+# These people already bought. They cost money and rarely buy again today.
+# Keep them if your business genuinely sells repairs or spare parts.
+# ============================================================
+login
+log in
+sign in
+customer service number
+helpline
+complaint
+complaints
+refund status
+track order
+order status
+cancel order
+cancel subscription
+unsubscribe
+warranty claim
+user manual
+instruction manual
+troubleshoot
+troubleshooting
+not working
+error code
+how to fix
+repair myself
+
+# ============================================================
+# SECTION 10: LOCATIONS YOU DO NOT SERVE
+# Replace with the actual cities, provinces or countries outside your service area.
+# This is one of the highest-value sections for local businesses.
+# ============================================================
+# [add cities you do not serve, one per line]
+# [add countries you do not ship to, one per line]
+# Example for a Karachi-only service business:
+# lahore
+# islamabad
+# rawalpindi
+# peshawar
+# quetta
+# faisalabad
+# multan
+# india
+# dubai
+# uk
+# usa
+
+# ============================================================
+# SECTION 11: LOW-VALUE SERVICE VARIANTS
+# Highly business specific. This is where n-gram analysis (Lesson 3.4)
+# earns its value. Add the low-margin job types you do not want.
+# ============================================================
+# [add after your first n-gram analysis]
+# Example from the AC repair case study:
+# "gas filling"
+# "gas refill"
+# "gas charging"
+# remote repair
+
+# ============================================================
+# SECTION 12: ADULT AND UNSAFE CONTENT
+# Apply to every account regardless of industry.
+# ============================================================
+porn
+xxx
+sex
+nude
+escort
+gambling
+casino
+betting
+drugs
+weapon
+gun
+
+# ============================================================
+# MAINTENANCE NOTES
+# ============================================================
+# - Date every batch you add, in your change log
+# - Review the whole list once a year and remove anything obsolete
+# - After a large addition, check impression volume the next day.
+#   A sudden drop usually means a conflict with your own keywords.
+# - Google Ads flags conflicting negatives under Recommendations. Check it.
+# - Always verify conversion data BEFORE blocking a term that already spends money.

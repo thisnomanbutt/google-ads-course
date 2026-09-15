@@ -1,0 +1,81 @@
+00-01-expert-mindset.md	0.1	Why Good Business Beats Clever Bidding
+00-02-offer-research-framework.md	0.2	How to Build an Offer People Want
+00-03-funnel-math-mastery.md	0.3	The Numbers Every Advertiser Must Know
+00-04-poas-profit-on-ad-spend.md	0.4	Profit, Not Just Sales: Why ROAS Can Lie
+00-05-landing-pages-cro-for-paid-traffic.md	0.5	Landing Pages That Turn Clicks Into Sales
+00-06-lead-quality-framework.md	0.6	Why Cheap Leads Can Be Worth Nothing
+00-07-pakistan-founders-module.md	0.7	Getting Paid and Staying Legal in Pakistan
+01-01-auction-system-deconstructed.md	1.1	How Google Decides Which Ad Shows First
+01-02-full-funnel-stack-goal-maturity-matrix.md	1.2	Which Campaign Type Should You Use?
+01-03-pro-ui-setup-2026.md	1.3	Set Up Google Ads to Show You Profit
+01-04-account-architecture-for-scale.md	1.4	How to Organise Your Campaigns
+01-05-policy-and-survival.md	1.5	Avoid Getting Your Account Suspended
+02-01-professional-account-creation.md	2.1	Create Your Account Without Costly Mistakes
+02-02-the-core-stack.md	2.2	Connect GA4, Search Console and Merchant Center
+02-03-conversion-strategy.md	2.3	Choose What Counts as a Conversion
+02-04-gtm-mastery.md	2.4	Track Conversions With Google Tag Manager
+02-05-tag-validation-protocol.md	2.5	Check That Your Tracking Really Works
+02-06-first-party-data-foundation.md	2.6	Save the Click ID So You Can Use It Later
+03-01-search-intent-spectrum.md	3.1	What People Really Want When They Search
+03-02-keyword-research-stack.md	3.2	How to Find Keywords Worth Paying For
+03-03-match-types-in-the-ai-era.md	3.3	Match Types: How Much Control to Give Google
+03-04-negative-system-and-ngram-analysis.md	3.4	Stop Wasting Money on the Wrong Searches
+03-05-intent-clusters.md	3.5	Group Your Keywords the Right Way
+04-01-responsive-search-ads-framework.md	4.1	Write Responsive Search Ads That Get Clicks
+04-02-asset-mastery.md	4.2	Add Sitelinks, Callouts and Images
+04-03-copywriting-and-prompt-engineering.md	4.3	Write Better Ads, and Use AI to Help
+04-04-campaign-settings-deep-dive.md	4.4	The Settings That Quietly Waste Your Money
+04-05-quality-score-engineering.md	4.5	Raise Your Quality Score and Pay Less
+04-06-live-build-one-perfect-campaign.md	4.6	Build a Complete Campaign, Step by Step
+05-01-manual-vs-automated-bidding.md	5.1	Manual or Automated Bidding: Which and When
+05-02-max-conversions-and-learning-phase.md	5.2	The Learning Phase: Why You Must Wait
+05-03-tcpa-and-troas.md	5.3	Setting Target CPA and Target ROAS
+05-04-warm-up-protocols.md	5.4	Moving Safely to Value-Based Bidding
+05-05-value-based-bidding-for-leads.md	5.5	Tell Google Which Leads Are Worth More
+06-01-merchant-center-feed-optimization.md	6.1	Build a Product Feed That Sells
+06-02-pmax-architecture.md	6.2	Set Up Performance Max Properly
+06-03-controlling-pmax.md	6.3	Stop PMax Taking Credit for Free Sales
+06-04-demand-gen.md	6.4	Demand Gen: Reaching People Before They Search
+06-05-youtube-and-video.md	6.5	Making YouTube Ads That People Watch
+06-06-display-and-remarketing.md	6.6	Remarketing: Cheap Clicks, Expensive Mistakes
+06-07-audiences.md	6.7	Audiences: Show Ads to the Right People
+07-01-enhanced-conversions-web.md	7.1	Enhanced Conversions: Find the Sales You Are Missing
+07-02-enhanced-conversions-for-leads.md	7.2	Connect Your Leads to Real Sales
+07-03-server-side-gtm.md	7.3	Server-Side Tracking: Is It Worth It?
+07-04-offline-conversion-tracking-crm.md	7.4	Send Sales From Your CRM Back to Google
+07-05-consent-mode-v2.md	7.5	Consent Mode: Respect Privacy, Keep Measuring
+07-06-bigquery-pipeline.md	7.6	Keep Your Own Data With BigQuery
+08-01-impression-share-scaling-framework.md	8.1	Can You Grow? Reading Impression Share
+08-02-looker-studio-and-reporting.md	8.2	Build Reports Your Client Will Actually Read
+08-03-micro-macro-conversion-modeling.md	8.3	What to Do When You Have Too Few Sales
+08-04-diagnosing-decay.md	8.4	Why Results Drop, and How to Find the Cause
+08-05-fraud-and-invalid-click-forensics.md	8.5	Fake Clicks: How to Spot and Stop Them
+09-01-portfolio-bidding-shared-budgets.md	9.1	Shared Budgets and Bidding Across Campaigns
+09-02-dynamic-search-ads.md	9.2	Advertise Thousands of Products Without Keywords
+09-03-advanced-geo-targeting.md	9.3	Target the Right Areas, Not Just a Circle
+09-04-app-campaigns.md	9.4	App Campaigns: Getting Users Who Pay
+09-05-cross-domain-multi-store-tracking.md	9.5	Keep Tracking When the Checkout Is Elsewhere
+09-06-competitor-conquesting.md	9.6	Bidding on Competitor Names: Is It Worth It?
+10-01-mcc-management-and-onboarding.md	10.1	Manage Many Accounts and New Clients
+10-02-budget-pacing-models.md	10.2	Spend the Budget Evenly, Not All at Once
+10-03-seasonality-and-peak-management.md	10.3	Plan for Busy Seasons Like Ramadan and Eid
+10-04-google-rep-management.md	10.4	Getting Real Help From Google
+11-01-how-smart-bidding-thinks.md	11.1	How Smart Bidding Thinks, and How to Guide It
+11-02-google-ads-scripts-arsenal.md	11.2	Five Free Scripts That Watch Your Account
+11-03-google-ads-api-and-python.md	11.3	When to Use the API, and When Not To
+11-04-conversion-value-rules.md	11.4	Tell Google Some Conversions Are Worth More
+11-05-utm-architecture-and-url-templates.md	11.5	Tag Your Links So You Can Track Everything
+12-01-first-party-data-strategy.md	12.1	Your Customer List Is Your Biggest Advantage
+12-02-predictive-ltv-modeling.md	12.2	Work Out Which Customers Are Worth Most
+12-03-margin-based-bidding.md	12.3	Make Google Bid on Real Profit
+12-04-marketing-mix-modeling.md	12.4	Which Channel Really Drives Your Sales?
+12-05-blended-roas-mer-contribution-margin.md	12.5	The Numbers to Show Your Boss or Client
+13-01-google-experiments-framework.md	13.1	Run a Fair Test Instead of Guessing
+13-02-geo-testing-and-lift-studies.md	13.2	Prove Your Ads Caused the Sales
+13-03-cross-channel-attribution.md	13.3	Google, Meta and TikTok: Who Gets the Credit?
+13-04-100-point-account-audit.md	13.4	The 100-Point Account Check That Wins Clients
+14-01-global-account-operations.md	14.1	Selling in Other Countries
+14-02-future-proofing.md	14.2	What Is Changing, and How to Stay Ready
+14-03-building-a-media-buying-team.md	14.3	Hiring and Training a Team
+14-04-enterprise-clients-pitching-pricing.md	14.4	Pricing Your Work and Keeping Clients
+14-05-continuous-mastery-system.md	14.5	How to Keep Learning After This Course
