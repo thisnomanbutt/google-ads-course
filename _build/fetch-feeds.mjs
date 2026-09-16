@@ -27,10 +27,10 @@ const FEEDS = [
     max: 6
   },
   {
-    id: 'meta',
-    source: 'Meta',
-    url: 'https://developers.facebook.com/blog/feed/',
-    note: 'Meta for Developers — Marketing API and Business tools changes',
+    id: 'marketing-platform',
+    source: 'Marketing Platform',
+    url: 'https://blog.google/products/marketingplatform/rss/',
+    note: 'Google Marketing Platform — Analytics, Tag Manager and Looker Studio changes',
     max: 6
   },
   {

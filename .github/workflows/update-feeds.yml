@@ -1,6 +1,6 @@
 name: Update announcement feeds
 
-# Pulls official Google and Meta feeds, rebuilds the page, commits the result.
+# Pulls official Google feeds, rebuilds the page, commits the result.
 # Runs server-side so CORS never applies.
 
 on:
