@@ -14,6 +14,7 @@
   --flag:#8C2F39; --flag-soft:#F7E7E7;
   --on-accent:#FFFFFF;
   --star:#B07D19; --star-soft:#FAF0DA;
+  --info:#1F5B8F; --info-soft:#E3EDF6;
   --mark:#8C2F39; --mark-soft:#F9E9E9;
   --shadow:0 1px 2px rgba(22,26,24,.05),0 8px 24px -12px rgba(22,26,24,.18);
   --ff-ui:'Archivo','Helvetica Neue',Arial,sans-serif;
@@ -31,6 +32,7 @@
     --flag:#E38C93; --flag-soft:#2E1B1D;
     --on-accent:#06130E;
     --star:#DCB35C; --star-soft:#2A2314;
+    --info:#7FB4E0; --info-soft:#12263A;
     --mark:#E38C93; --mark-soft:#2E1B1D;
     --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px -12px rgba(0,0,0,.6);
   }
@@ -44,6 +46,7 @@
   --flag:#E38C93; --flag-soft:#2E1B1D;
   --on-accent:#06130E;
   --star:#DCB35C; --star-soft:#2A2314;
+  --info:#7FB4E0; --info-soft:#12263A;
   --mark:#E38C93; --mark-soft:#2E1B1D;
   --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px -12px rgba(0,0,0,.6);
 }
@@ -520,6 +523,28 @@ body{
 .tag.new,.tag.changed{background:var(--accent-soft);color:var(--accent-ink)}
 .tag.renamed,.tag.merged{background:var(--warn-soft);color:var(--warn)}
 .tag.sunset,.tag.policy{background:var(--flag-soft);color:var(--flag)}
+/* live announcement sources */
+.tag.news{background:var(--rule-soft);color:var(--ink-3)}
+.tag.src-google-ads{background:var(--accent-soft);color:var(--accent-ink)}
+.tag.src-ads-api{background:var(--warn-soft);color:var(--warn)}
+.tag.src-meta{background:var(--info-soft);color:var(--info)}
+.tag.src-google-search{background:var(--rule-soft);color:var(--ink-2)}
+.entry.live h3{font-weight:600}
+
+/* source filter inside the panel */
+.srcbar{display:flex;flex-wrap:wrap;gap:5px;margin:0 0 16px}
+.srcbar button{
+  font-family:var(--ff-ui);font-size:10.5px;font-weight:600;padding:4px 9px;
+  border-radius:99px;border:1px solid var(--rule);background:var(--paper);
+  color:var(--ink-2);cursor:pointer;
+}
+.srcbar button:hover{border-color:var(--ink-3)}
+.srcbar button.on{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.panel-updated{
+  font-family:var(--ff-mono);font-size:9.5px;color:var(--ink-3);
+  letter-spacing:.03em;margin:0 0 14px;
+}
+.panel-updated b{color:var(--accent);font-weight:500}
 .entry-date{font-family:var(--ff-mono);font-size:9.5px;color:var(--ink-3);letter-spacing:.04em}
 .entry.unread .entry-top::after{content:'';width:5px;height:5px;border-radius:50%;background:var(--flag);flex:0 0 auto}
 .entry h3{font-family:var(--ff-ui);font-size:14px;font-weight:600;line-height:1.35;letter-spacing:-.006em;margin:0 0 5px;color:var(--ink)}
@@ -673,6 +698,8 @@ body{
     </div>
     <div class="panel-body">
       <p class="panel-note" id="panelNote"></p>
+      <div class="panel-updated" id="panelUpdated"></div>
+      <div class="srcbar" id="srcBar"></div>
       <div id="newsFeed"></div>
       <div class="sources-block">
         <h3>Official sources — check these for anything newer</h3>
@@ -684,7 +711,7 @@ body{
 <script type="application/json" id="news-data">
 {
   "reviewedTo": "2026-09-15",
-  "note": "This feed is maintained by hand, not fetched from Google. The page cannot call external services, so nothing here updates on its own. Every entry links to an official Google source — verify against that source before you act on it, and check the sources below for anything newer than the review date above.",
+  "note": "Announcements marked Google Ads, Ads API, Meta or Google Search are pulled straight from the official feeds once a day. Entries marked Course notes are written by hand and link to the lessons they affect. Always open the official link before acting on anything here.",
   "sources": [
     {
       "label": "Google Ads Help Centre",
@@ -1080,7 +1107,7 @@ exactly the problem the course exists to fix.
 - 14.2 (built on ideas, not features — but check the product names)
 
 **Rebuilding the web version:** edit any lesson, then run `bash _build/build.sh`
-and publish `_build/index.html` again.
+then publish `index.html` again (or run `bash publish.sh`).
 
 **About the examples:** Sana, Dr. Ayesha, TaskFlow, Bilal and Ali are made-up
 businesses used to teach. The numbers are realistic and match across all 90
@@ -41278,7 +41305,7 @@ function round2(n) { return Math.round(n * 100) / 100; }
   var NEWS = {entries:[], sources:[], note:'', reviewedTo:''};
   try{ var rn = $('news-data'); if(rn) NEWS = JSON.parse(rn.textContent); }catch(e){}
   var SEENKEY = 'gam-news-seen-v1', STRIPKEY = 'gam-news-strip-v1', WKEY = 'gam-seqalerts-v1';
-  var seen = {}, stripHidden = false, warnOn = true;
+  var seen = {}, stripHidden = false, warnOn = true, srcPick = 'All';
   try{ (JSON.parse(localStorage.getItem(SEENKEY))||[]).forEach(function(id){ seen[id]=1; }); }catch(e){}
   try{ stripHidden = localStorage.getItem(STRIPKEY) === 'hidden'; }catch(e){}
   try{ warnOn = localStorage.getItem(WKEY) !== 'off'; }catch(e){}
@@ -41307,11 +41334,36 @@ function round2(n) { return Math.round(n * 100) / 100; }
       strip.hidden = false;
     } else strip.hidden = true;
 
-    $('newsFeed').innerHTML = NEWS.entries.map(function(en){
-      var h = '<article class="entry'+(seen[en.id]?'':' unread')+'">';
-      h += '<div class="entry-top"><span class="tag '+esc(en.type)+'">'+esc(en.type)+'</span>'
+    /* source filter — "All", then one button per source present */
+    var srcSet = [];
+    NEWS.entries.forEach(function(en){
+      var s = en.live ? en.source : 'Course notes';
+      if(typeof s === 'string' && srcSet.indexOf(s) === -1) srcSet.push(s);
+    });
+    $('srcBar').innerHTML = ['All'].concat(srcSet).map(function(s){
+      return '<button type="button" data-src="'+esc(s)+'"'
+        + (srcPick === s ? ' class="on"' : '')+'>'+esc(s)+'</button>';
+    }).join('');
+
+    var shown = NEWS.entries.filter(function(en){
+      if(srcPick === 'All') return true;
+      return (en.live ? en.source : 'Course notes') === srcPick;
+    });
+
+    $('newsFeed').innerHTML = shown.map(function(en){
+      var live = !!en.live;
+      var chip = live ? en.source : en.type;
+      var chipCls = live
+        ? 'src-' + String(en.source).toLowerCase().replace(/[^a-z]+/g,'-')
+        : esc(en.type);
+
+      var h = '<article class="entry'+(seen[en.id]?'':' unread')+(live?' live':'')+'">';
+      h += '<div class="entry-top"><span class="tag '+chipCls+'">'+esc(chip)+'</span>'
          + '<span class="entry-date">'+esc(niceDate(en.date))+'</span></div>';
-      h += '<h3>'+esc(en.title)+'</h3><p>'+esc(en.body)+'</p><div class="entry-links">';
+      h += '<h3>'+esc(en.title)+'</h3>';
+      if(en.body) h += '<p>'+esc(en.body)+'</p>';
+      h += '<div class="entry-links">';
+
       if(en.lessons && en.lessons.length){
         h += '<span class="lbl">Affects</span>';
         en.lessons.forEach(function(k){
@@ -41319,19 +41371,58 @@ function round2(n) { return Math.round(n * 100) / 100; }
           if(l) h += '<a class="lk" href="#/'+k+'" data-news-lesson="1">'+esc(l.num||l.title)+'</a>';
         });
       }
-      if(en.source && en.source.url)
+      /* live items carry a plain url; curated ones carry {label,url} */
+      if(live && en.url)
+        h += '<a class="lk src" href="'+esc(en.url)+'" target="_blank" rel="noopener noreferrer">'
+          + 'Read the announcement &#8599;</a>';
+      else if(en.source && en.source.url)
         h += '<a class="lk src" href="'+esc(en.source.url)+'" target="_blank" rel="noopener noreferrer">'
           + esc(en.source.label||'Official source')+' &#8599;</a>';
-      return h + '</div></article>';
-    }).join('');
 
-    $('newsSources').innerHTML = NEWS.sources.map(function(s){
+      return h + '</div></article>';
+    }).join('') || '<div class="emptybox">Nothing from this source yet.</div>';
+
+    /* official source links: the live feeds first, then the reference list */
+    var feedLinks = (NEWS.feeds||[]).map(function(f){
+      return '<a href="'+esc(f.url)+'" target="_blank" rel="noopener noreferrer"><b>'
+        + esc(f.source)+' &#8599;</b><span>'+esc(f.note||'')+'</span></a>';
+    });
+    var refLinks = (NEWS.sources||[]).map(function(s){
       return '<a href="'+esc(s.url)+'" target="_blank" rel="noopener noreferrer"><b>'
         + esc(s.label)+' &#8599;</b><span>'+esc(s.note||'')+'</span></a>';
-    }).join('');
+    });
+    $('newsSources').innerHTML = feedLinks.concat(refLinks).join('');
+
     $('panelNote').textContent = NEWS.note || '';
-    $('revDate').textContent = 'Reviewed to '+(NEWS.reviewedTo||'—')+' · '+NEWS.entries.length+' entries';
+    var liveCount = NEWS.entries.filter(function(e){ return e.live; }).length;
+    $('panelUpdated').innerHTML = NEWS.updated
+      ? 'Feeds checked <b>' + esc(String(NEWS.updated).slice(0,10)) + '</b> · '
+        + liveCount + ' live · ' + (NEWS.entries.length - liveCount) + ' course notes'
+      : 'Course notes only · live feeds update once this is hosted';
+    $('revDate').textContent = NEWS.entries.length + ' announcements';
   }
+
+  /* On a hosted copy, pull the freshest news.json the daily job wrote.
+     Same-origin, so no CORS issue. Falls back silently to the embedded copy
+     when opened from a file:// path or offline. */
+  function refreshNews(){
+    if(!window.fetch || location.protocol === 'file:') return;
+    fetch('news.json', {cache:'no-cache'})
+      .then(function(r){ return r.ok ? r.json() : null; })
+      .then(function(fresh){
+        if(!fresh || !fresh.entries || !fresh.entries.length) return;
+        NEWS = fresh;
+        renderNews();
+      })
+      .catch(function(){ /* keep the embedded copy */ });
+  }
+
+  document.addEventListener('click', function(e){
+    var b = e.target.closest && e.target.closest('[data-src]');
+    if(!b) return;
+    srcPick = b.getAttribute('data-src');
+    renderNews();
+  });
   function openPanel(){
     panel.classList.add('open'); panel.setAttribute('aria-hidden','false'); scrim.classList.add('on');
     NEWS.entries.forEach(function(en){ seen[en.id] = 1; });
@@ -41397,6 +41488,7 @@ function round2(n) { return Math.round(n * 100) / 100; }
   buildNav();
   renderSideProgress();
   renderNews();
+  refreshNews();
   route();
 })();
 </script>

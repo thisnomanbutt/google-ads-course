@@ -585,7 +585,7 @@
   var NEWS = {entries:[], sources:[], note:'', reviewedTo:''};
   try{ var rn = $('news-data'); if(rn) NEWS = JSON.parse(rn.textContent); }catch(e){}
   var SEENKEY = 'gam-news-seen-v1', STRIPKEY = 'gam-news-strip-v1', WKEY = 'gam-seqalerts-v1';
-  var seen = {}, stripHidden = false, warnOn = true;
+  var seen = {}, stripHidden = false, warnOn = true, srcPick = 'All';
   try{ (JSON.parse(localStorage.getItem(SEENKEY))||[]).forEach(function(id){ seen[id]=1; }); }catch(e){}
   try{ stripHidden = localStorage.getItem(STRIPKEY) === 'hidden'; }catch(e){}
   try{ warnOn = localStorage.getItem(WKEY) !== 'off'; }catch(e){}
@@ -614,11 +614,36 @@
       strip.hidden = false;
     } else strip.hidden = true;
 
-    $('newsFeed').innerHTML = NEWS.entries.map(function(en){
-      var h = '<article class="entry'+(seen[en.id]?'':' unread')+'">';
-      h += '<div class="entry-top"><span class="tag '+esc(en.type)+'">'+esc(en.type)+'</span>'
+    /* source filter — "All", then one button per source present */
+    var srcSet = [];
+    NEWS.entries.forEach(function(en){
+      var s = en.live ? en.source : 'Course notes';
+      if(typeof s === 'string' && srcSet.indexOf(s) === -1) srcSet.push(s);
+    });
+    $('srcBar').innerHTML = ['All'].concat(srcSet).map(function(s){
+      return '<button type="button" data-src="'+esc(s)+'"'
+        + (srcPick === s ? ' class="on"' : '')+'>'+esc(s)+'</button>';
+    }).join('');
+
+    var shown = NEWS.entries.filter(function(en){
+      if(srcPick === 'All') return true;
+      return (en.live ? en.source : 'Course notes') === srcPick;
+    });
+
+    $('newsFeed').innerHTML = shown.map(function(en){
+      var live = !!en.live;
+      var chip = live ? en.source : en.type;
+      var chipCls = live
+        ? 'src-' + String(en.source).toLowerCase().replace(/[^a-z]+/g,'-')
+        : esc(en.type);
+
+      var h = '<article class="entry'+(seen[en.id]?'':' unread')+(live?' live':'')+'">';
+      h += '<div class="entry-top"><span class="tag '+chipCls+'">'+esc(chip)+'</span>'
          + '<span class="entry-date">'+esc(niceDate(en.date))+'</span></div>';
-      h += '<h3>'+esc(en.title)+'</h3><p>'+esc(en.body)+'</p><div class="entry-links">';
+      h += '<h3>'+esc(en.title)+'</h3>';
+      if(en.body) h += '<p>'+esc(en.body)+'</p>';
+      h += '<div class="entry-links">';
+
       if(en.lessons && en.lessons.length){
         h += '<span class="lbl">Affects</span>';
         en.lessons.forEach(function(k){
@@ -626,19 +651,58 @@
           if(l) h += '<a class="lk" href="#/'+k+'" data-news-lesson="1">'+esc(l.num||l.title)+'</a>';
         });
       }
-      if(en.source && en.source.url)
+      /* live items carry a plain url; curated ones carry {label,url} */
+      if(live && en.url)
+        h += '<a class="lk src" href="'+esc(en.url)+'" target="_blank" rel="noopener noreferrer">'
+          + 'Read the announcement &#8599;</a>';
+      else if(en.source && en.source.url)
         h += '<a class="lk src" href="'+esc(en.source.url)+'" target="_blank" rel="noopener noreferrer">'
           + esc(en.source.label||'Official source')+' &#8599;</a>';
-      return h + '</div></article>';
-    }).join('');
 
-    $('newsSources').innerHTML = NEWS.sources.map(function(s){
+      return h + '</div></article>';
+    }).join('') || '<div class="emptybox">Nothing from this source yet.</div>';
+
+    /* official source links: the live feeds first, then the reference list */
+    var feedLinks = (NEWS.feeds||[]).map(function(f){
+      return '<a href="'+esc(f.url)+'" target="_blank" rel="noopener noreferrer"><b>'
+        + esc(f.source)+' &#8599;</b><span>'+esc(f.note||'')+'</span></a>';
+    });
+    var refLinks = (NEWS.sources||[]).map(function(s){
       return '<a href="'+esc(s.url)+'" target="_blank" rel="noopener noreferrer"><b>'
         + esc(s.label)+' &#8599;</b><span>'+esc(s.note||'')+'</span></a>';
-    }).join('');
+    });
+    $('newsSources').innerHTML = feedLinks.concat(refLinks).join('');
+
     $('panelNote').textContent = NEWS.note || '';
-    $('revDate').textContent = 'Reviewed to '+(NEWS.reviewedTo||'—')+' · '+NEWS.entries.length+' entries';
+    var liveCount = NEWS.entries.filter(function(e){ return e.live; }).length;
+    $('panelUpdated').innerHTML = NEWS.updated
+      ? 'Feeds checked <b>' + esc(String(NEWS.updated).slice(0,10)) + '</b> · '
+        + liveCount + ' live · ' + (NEWS.entries.length - liveCount) + ' course notes'
+      : 'Course notes only · live feeds update once this is hosted';
+    $('revDate').textContent = NEWS.entries.length + ' announcements';
   }
+
+  /* On a hosted copy, pull the freshest news.json the daily job wrote.
+     Same-origin, so no CORS issue. Falls back silently to the embedded copy
+     when opened from a file:// path or offline. */
+  function refreshNews(){
+    if(!window.fetch || location.protocol === 'file:') return;
+    fetch('news.json', {cache:'no-cache'})
+      .then(function(r){ return r.ok ? r.json() : null; })
+      .then(function(fresh){
+        if(!fresh || !fresh.entries || !fresh.entries.length) return;
+        NEWS = fresh;
+        renderNews();
+      })
+      .catch(function(){ /* keep the embedded copy */ });
+  }
+
+  document.addEventListener('click', function(e){
+    var b = e.target.closest && e.target.closest('[data-src]');
+    if(!b) return;
+    srcPick = b.getAttribute('data-src');
+    renderNews();
+  });
   function openPanel(){
     panel.classList.add('open'); panel.setAttribute('aria-hidden','false'); scrim.classList.add('on');
     NEWS.entries.forEach(function(en){ seen[en.id] = 1; });
@@ -704,6 +768,7 @@
   buildNav();
   renderSideProgress();
   renderNews();
+  refreshNews();
   route();
 })();
 </script>

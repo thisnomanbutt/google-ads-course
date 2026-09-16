@@ -1,0 +1,50 @@
+name: Update announcement feeds
+
+# Pulls official Google and Meta feeds, rebuilds the page, commits the result.
+# Runs server-side so CORS never applies.
+
+on:
+  schedule:
+    - cron: '0 5 * * *'     # every day at 05:00 UTC (10:00 PKT)
+  workflow_dispatch:         # lets you run it by hand from the Actions tab
+  push:
+    branches: [main]
+    paths:
+      - '**.md'
+      - 'news-curated.json'
+      - '_build/**'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-feeds
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch official feeds
+        run: node _build/fetch-feeds.mjs
+
+      - name: Rebuild the page
+        run: bash _build/build.sh
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No changes."
+            exit 0
+          fi
+          git add news.json index.html
+          git commit -m "Update announcements $(date -u +%Y-%m-%d)"
+          git push

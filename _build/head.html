@@ -14,6 +14,7 @@
   --flag:#8C2F39; --flag-soft:#F7E7E7;
   --on-accent:#FFFFFF;
   --star:#B07D19; --star-soft:#FAF0DA;
+  --info:#1F5B8F; --info-soft:#E3EDF6;
   --mark:#8C2F39; --mark-soft:#F9E9E9;
   --shadow:0 1px 2px rgba(22,26,24,.05),0 8px 24px -12px rgba(22,26,24,.18);
   --ff-ui:'Archivo','Helvetica Neue',Arial,sans-serif;
@@ -31,6 +32,7 @@
     --flag:#E38C93; --flag-soft:#2E1B1D;
     --on-accent:#06130E;
     --star:#DCB35C; --star-soft:#2A2314;
+    --info:#7FB4E0; --info-soft:#12263A;
     --mark:#E38C93; --mark-soft:#2E1B1D;
     --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px -12px rgba(0,0,0,.6);
   }
@@ -44,6 +46,7 @@
   --flag:#E38C93; --flag-soft:#2E1B1D;
   --on-accent:#06130E;
   --star:#DCB35C; --star-soft:#2A2314;
+  --info:#7FB4E0; --info-soft:#12263A;
   --mark:#E38C93; --mark-soft:#2E1B1D;
   --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px -12px rgba(0,0,0,.6);
 }
@@ -520,6 +523,28 @@ body{
 .tag.new,.tag.changed{background:var(--accent-soft);color:var(--accent-ink)}
 .tag.renamed,.tag.merged{background:var(--warn-soft);color:var(--warn)}
 .tag.sunset,.tag.policy{background:var(--flag-soft);color:var(--flag)}
+/* live announcement sources */
+.tag.news{background:var(--rule-soft);color:var(--ink-3)}
+.tag.src-google-ads{background:var(--accent-soft);color:var(--accent-ink)}
+.tag.src-ads-api{background:var(--warn-soft);color:var(--warn)}
+.tag.src-meta{background:var(--info-soft);color:var(--info)}
+.tag.src-google-search{background:var(--rule-soft);color:var(--ink-2)}
+.entry.live h3{font-weight:600}
+
+/* source filter inside the panel */
+.srcbar{display:flex;flex-wrap:wrap;gap:5px;margin:0 0 16px}
+.srcbar button{
+  font-family:var(--ff-ui);font-size:10.5px;font-weight:600;padding:4px 9px;
+  border-radius:99px;border:1px solid var(--rule);background:var(--paper);
+  color:var(--ink-2);cursor:pointer;
+}
+.srcbar button:hover{border-color:var(--ink-3)}
+.srcbar button.on{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.panel-updated{
+  font-family:var(--ff-mono);font-size:9.5px;color:var(--ink-3);
+  letter-spacing:.03em;margin:0 0 14px;
+}
+.panel-updated b{color:var(--accent);font-weight:500}
 .entry-date{font-family:var(--ff-mono);font-size:9.5px;color:var(--ink-3);letter-spacing:.04em}
 .entry.unread .entry-top::after{content:'';width:5px;height:5px;border-radius:50%;background:var(--flag);flex:0 0 auto}
 .entry h3{font-family:var(--ff-ui);font-size:14px;font-weight:600;line-height:1.35;letter-spacing:-.006em;margin:0 0 5px;color:var(--ink)}
@@ -673,6 +698,8 @@ body{
     </div>
     <div class="panel-body">
       <p class="panel-note" id="panelNote"></p>
+      <div class="panel-updated" id="panelUpdated"></div>
+      <div class="srcbar" id="srcBar"></div>
       <div id="newsFeed"></div>
       <div class="sources-block">
         <h3>Official sources — check these for anything newer</h3>
