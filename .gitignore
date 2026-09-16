@@ -3,3 +3,7 @@ Thumbs.db
 .DS_Store
 *.tmp
 *.t
+
+# notification scratch files
+.new-items.md
+.new-items-title.txt

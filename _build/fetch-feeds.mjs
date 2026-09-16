@@ -101,6 +101,20 @@ function parseFeed(xml, feed) {
 /* ---------- run ---------- */
 
 const curated = JSON.parse(await readFile('news-curated.json', 'utf8'));
+
+/* What did we already know about last time? Anything not in here is new,
+   and new items are what trigger the email. */
+let knownIds = new Set();
+let hadPrevious = false;
+try {
+  const prev = JSON.parse(await readFile('news.json', 'utf8'));
+  const prevLive = (prev.entries || []).filter((e) => e.live);
+  hadPrevious = prevLive.length > 0;
+  prevLive.forEach((e) => knownIds.add(e.title));
+} catch {
+  /* first ever run */
+}
+
 const live = [];
 const status = [];
 
@@ -134,3 +148,40 @@ await writeFile('news.json', JSON.stringify(out, null, 2) + '\n');
 
 console.log(status.join('\n'));
 console.log(`\nwrote news.json — ${live.length} live + ${curated.entries.length} curated`);
+
+/* ---------- write the email digest, if anything is genuinely new ---------- */
+
+const fresh = live.filter((e) => !knownIds.has(e.title));
+
+if (!hadPrevious) {
+  // First run: everything looks new. Don't send a 25-item email.
+  console.log('\nFirst run — skipping the notification.');
+} else if (!fresh.length) {
+  console.log('\nNothing new since last check. No notification.');
+} else {
+  const today = new Date().toLocaleDateString('en-GB', {
+    day: 'numeric', month: 'long', year: 'numeric'
+  });
+
+  let md = `Google published ${fresh.length} new `;
+  md += fresh.length === 1 ? 'announcement' : 'announcements';
+  md += ` since the last check.\n\n`;
+
+  for (const e of fresh) {
+    md += `### ${e.title}\n`;
+    md += `**${e.source}** · ${e.date}\n\n`;
+    if (e.body) md += `${e.body}\n\n`;
+    md += `[Read the announcement](${e.url})\n\n---\n\n`;
+  }
+
+  md += `Open your course to read these in the notification panel:\n`;
+  md += `https://thisnomanbutt.github.io/google-ads-course/\n\n`;
+  md += `*You can close this issue once you have read them. `;
+  md += `A new one appears only when Google publishes something new.*\n`;
+
+  await writeFile('.new-items.md', md);
+  await writeFile('.new-items-title.txt',
+    `${fresh.length} new Google Ads update${fresh.length === 1 ? '' : 's'} — ${today}`);
+
+  console.log(`\n${fresh.length} new item(s) — notification will be sent.`);
+}

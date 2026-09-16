@@ -1,6 +1,8 @@
 name: Update announcement feeds
 
-# Pulls official Google feeds, rebuilds the page, commits the result.
+# Pulls official Google feeds, rebuilds the page, commits the result,
+# and emails the repo owner when Google publishes something new.
+#
 # Runs server-side so CORS never applies.
 
 on:
@@ -16,6 +18,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: update-feeds
@@ -41,10 +44,24 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if [ -z "$(git status --porcelain)" ]; then
-            echo "No changes."
+          if [ -z "$(git status --porcelain news.json index.html)" ]; then
+            echo "No changes to publish."
             exit 0
           fi
           git add news.json index.html
           git commit -m "Update announcements $(date -u +%Y-%m-%d)"
           git push
+
+      # Assigning the issue to the repo owner sends them an email under
+      # GitHub's default notification settings. Nothing to switch on.
+      - name: Email the owner if Google published something new
+        if: hashFiles('.new-items.md') != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          TITLE="$(cat .new-items-title.txt)"
+          gh issue create \
+            --title "🔔 $TITLE" \
+            --body-file .new-items.md \
+            --assignee "$OWNER"
