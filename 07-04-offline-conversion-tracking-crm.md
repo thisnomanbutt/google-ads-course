@@ -361,7 +361,7 @@ The previous agency had really connected HubSpot to Google Ads. The connection e
 
 ## 📊 Mastery Score
 
-**Level: Elite**
+**Level: Expert**
 
 CRM integration work is unglamorous, fiddly and enormously valuable. It is also where most agencies quietly fail.
 

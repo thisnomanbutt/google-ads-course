@@ -236,7 +236,7 @@ The audit findings. The three easy fixes. The honest recommendation against your
 
 ## The Closing Argument
 
-You have completed 81 lessons. Here is what actually made you good, and it is worth being clear about it.
+You have completed 90 lessons. Here is what actually made you good, and it is worth being clear about it.
 
 ### It was not the tactics
 
@@ -366,7 +366,7 @@ Today: a measurement consultancy. Fewer clients, much higher fees, a waiting lis
 
 ## 📊 Mastery Score
 
-**Level: Top 1% — and the beginning of the real work**
+**Level: Top 1%**
 
 Finishing a course is not mastery. Mastery is what happens over the next five years, if you keep the habits.
 
@@ -477,11 +477,11 @@ Fixing that is the last and largest opportunity available to you — and everyth
 
 ## What you have finished
 
-**81 lessons. Seven phases. From unit economics to incrementality testing.**
+**90 lessons. Eight phases. From unit economics to incrementality testing.**
 
 ## The one sentence
 
-If you remember nothing else from 81 lessons, remember this:
+If you remember nothing else from 90 lessons, remember this:
 
 > **Google Ads is a loudspeaker. Your job is to make sure it is amplifying something worth hearing, and to prove that it is.**
 

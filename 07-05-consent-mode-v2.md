@@ -345,7 +345,7 @@ They had assumed compliance was a cost — something that reduced their marketin
 
 ## 📊 Mastery Score
 
-**Level: Elite**
+**Level: Expert**
 
 Consent Mode sits at the intersection of law, technology and ethics. Handling all three well is rare.
 

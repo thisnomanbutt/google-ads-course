@@ -34,7 +34,7 @@ module_name () {
 cat > "$OUT" <<'HEAD'
 # Google Ads Mastery — Complete Course
 
-**81 lessons · 8 phases · 15 modules**
+**90 lessons · 8 phases · 15 modules**
 
 *Learn to think like a business owner, not just a button-pusher.*
 
@@ -62,7 +62,7 @@ word explained the first time it appears.
 
 ## The people in the examples
 
-The same five businesses run through all 81 lessons, so learners follow one story
+The same five businesses run through all 90 lessons, so learners follow one story
 instead of meeting a new company every time:
 
 | Who | Business | What they teach |
@@ -153,10 +153,10 @@ exactly the problem the course exists to fix.
 - 14.2 (built on ideas, not features — but check the product names)
 
 **Rebuilding the web version:** edit any lesson, then run `bash _build/build.sh`
-and publish `_build/index.html` again.
+then publish `index.html` again (or run `bash publish.sh`).
 
 **About the examples:** Sana, Dr. Ayesha, TaskFlow, Bilal and Ali are made-up
-businesses used to teach. The numbers are realistic and match across all 81
+businesses used to teach. The numbers are realistic and match across all 90
 lessons, but they are teaching examples, not real companies. This is said plainly
 at the end of Lesson 14.5.
 FOOT

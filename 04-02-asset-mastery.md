@@ -350,7 +350,7 @@ That opportunity exists in a surprising number of accounts. Check the assets sec
 
 ## 📊 Mastery Score
 
-**Level: Beginner to Intermediate**
+**Level: Beginner**
 
 The work is simple. The impact is large. This is the highest return-per-hour task in Google Ads.
 

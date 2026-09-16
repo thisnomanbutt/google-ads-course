@@ -307,7 +307,7 @@ That third effect surprised her. She had set up server-side for measurement reas
 
 ## 📊 Mastery Score
 
-**Level: Elite**
+**Level: Expert**
 
 Server-side tagging is genuine technical infrastructure work. It is also frequently set up badly and expensively.
 

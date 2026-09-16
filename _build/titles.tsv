@@ -1,3 +1,4 @@
+00-00-how-to-use-this-course.md	0.0	How to Use This Course
 00-01-expert-mindset.md	0.1	Why Good Business Beats Clever Bidding
 00-02-offer-research-framework.md	0.2	How to Build an Offer People Want
 00-03-funnel-math-mastery.md	0.3	The Numbers Every Advertiser Must Know
@@ -5,11 +6,14 @@
 00-05-landing-pages-cro-for-paid-traffic.md	0.5	Landing Pages That Turn Clicks Into Sales
 00-06-lead-quality-framework.md	0.6	Why Cheap Leads Can Be Worth Nothing
 00-07-pakistan-founders-module.md	0.7	Getting Paid and Staying Legal in Pakistan
+01-00-what-google-ads-is.md	1.0	What Google Ads Is, in Plain Words
 01-01-auction-system-deconstructed.md	1.1	How Google Decides Which Ad Shows First
 01-02-full-funnel-stack-goal-maturity-matrix.md	1.2	Which Campaign Type Should You Use?
 01-03-pro-ui-setup-2026.md	1.3	Set Up Google Ads to Show You Profit
 01-04-account-architecture-for-scale.md	1.4	How to Organise Your Campaigns
 01-05-policy-and-survival.md	1.5	Avoid Getting Your Account Suspended
+01-06-finding-your-way-around.md	1.6	Finding Your Way Around the Google Ads Screen
+02-00-words-you-need-to-know.md	2.0	The Words You Need to Know
 02-01-professional-account-creation.md	2.1	Create Your Account Without Costly Mistakes
 02-02-the-core-stack.md	2.2	Connect GA4, Search Console and Merchant Center
 02-03-conversion-strategy.md	2.3	Choose What Counts as a Conversion
@@ -27,6 +31,8 @@
 04-04-campaign-settings-deep-dive.md	4.4	The Settings That Quietly Waste Your Money
 04-05-quality-score-engineering.md	4.5	Raise Your Quality Score and Pay Less
 04-06-live-build-one-perfect-campaign.md	4.6	Build a Complete Campaign, Step by Step
+04-07-call-campaigns.md	4.7	Call Campaigns and Call-Only Ads
+04-08-live-rescue-broken-account.md	4.8	Rescue a Broken Account, Step by Step
 05-01-manual-vs-automated-bidding.md	5.1	Manual or Automated Bidding: Which and When
 05-02-max-conversions-and-learning-phase.md	5.2	The Learning Phase: Why You Must Wait
 05-03-tcpa-and-troas.md	5.3	Setting Target CPA and Target ROAS
@@ -39,12 +45,15 @@
 06-05-youtube-and-video.md	6.5	Making YouTube Ads That People Watch
 06-06-display-and-remarketing.md	6.6	Remarketing: Cheap Clicks, Expensive Mistakes
 06-07-audiences.md	6.7	Audiences: Show Ads to the Right People
+06-08-local-services-ads.md	6.8	Local Services Ads: Pay Per Lead, Not Per Click
+06-09-standard-shopping-campaigns.md	6.9	Standard Shopping Campaigns, and When to Use Them
 07-01-enhanced-conversions-web.md	7.1	Enhanced Conversions: Find the Sales You Are Missing
 07-02-enhanced-conversions-for-leads.md	7.2	Connect Your Leads to Real Sales
 07-03-server-side-gtm.md	7.3	Server-Side Tracking: Is It Worth It?
 07-04-offline-conversion-tracking-crm.md	7.4	Send Sales From Your CRM Back to Google
 07-05-consent-mode-v2.md	7.5	Consent Mode: Respect Privacy, Keep Measuring
 07-06-bigquery-pipeline.md	7.6	Keep Your Own Data With BigQuery
+08-00-reading-ga4-reports.md	8.0	Reading Your GA4 Reports
 08-01-impression-share-scaling-framework.md	8.1	Can You Grow? Reading Impression Share
 08-02-looker-studio-and-reporting.md	8.2	Build Reports Your Client Will Actually Read
 08-03-micro-macro-conversion-modeling.md	8.3	What to Do When You Have Too Few Sales

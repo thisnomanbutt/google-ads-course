@@ -283,7 +283,7 @@ Bilal's advice, in his own words: *"Get boring first. Get impressive later."*
 
 ## 📊 Mastery Score
 
-**Level: Foundational (but business-critical)**
+**Level: Foundational**
 
 This lesson contains no advertising skill. It contains the reason your advertising skill can turn into a career.
 

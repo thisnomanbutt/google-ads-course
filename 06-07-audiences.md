@@ -448,4 +448,4 @@ You can now run a full multi-channel account. Confirm you can:
 6. Defend a Display campaign with placement exclusions and frequency caps
 7. Build an audience structure with exclusions, custom segments and Customer Match
 
-**Next:** Phase 4, Module 7 — Advanced Tracking That Sees Everything. This is where you get ahead of most advertisers.
+**Next lesson:** 6.8 — Local Services Ads: Pay Per Lead, Not Per Click

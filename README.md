@@ -1,6 +1,6 @@
 # Google Ads Mastery — Complete Course
 
-**81 lessons · 8 phases · 15 modules**
+**90 lessons · 8 phases · 15 modules**
 
 *Learn to think like a business owner, not just a button-pusher.*
 
@@ -28,7 +28,7 @@ word explained the first time it appears.
 
 ## The people in the examples
 
-The same five businesses run through all 81 lessons, so learners follow one story
+The same five businesses run through all 90 lessons, so learners follow one story
 instead of meeting a new company every time:
 
 | Who | Business | What they teach |
@@ -47,6 +47,7 @@ instead of meeting a new company every time:
 
 | # | Lesson |
 |---|---|
+| 0.0 | [How to Use This Course](00-00-how-to-use-this-course.md) |
 | 0.1 | [Why Good Business Beats Clever Bidding](00-01-expert-mindset.md) |
 | 0.2 | [How to Build an Offer People Want](00-02-offer-research-framework.md) |
 | 0.3 | [The Numbers Every Advertiser Must Know](00-03-funnel-math-mastery.md) |
@@ -61,16 +62,19 @@ instead of meeting a new company every time:
 
 | # | Lesson |
 |---|---|
+| 1.0 | [What Google Ads Is, in Plain Words](01-00-what-google-ads-is.md) |
 | 1.1 | [How Google Decides Which Ad Shows First](01-01-auction-system-deconstructed.md) |
 | 1.2 | [Which Campaign Type Should You Use?](01-02-full-funnel-stack-goal-maturity-matrix.md) |
 | 1.3 | [Set Up Google Ads to Show You Profit](01-03-pro-ui-setup-2026.md) |
 | 1.4 | [How to Organise Your Campaigns](01-04-account-architecture-for-scale.md) |
 | 1.5 | [Avoid Getting Your Account Suspended](01-05-policy-and-survival.md) |
+| 1.6 | [Finding Your Way Around the Google Ads Screen](01-06-finding-your-way-around.md) |
 
 **Module 2 · Set Up Your Account and Tracking**
 
 | # | Lesson |
 |---|---|
+| 2.0 | [The Words You Need to Know](02-00-words-you-need-to-know.md) |
 | 2.1 | [Create Your Account Without Costly Mistakes](02-01-professional-account-creation.md) |
 | 2.2 | [Connect GA4, Search Console and Merchant Center](02-02-the-core-stack.md) |
 | 2.3 | [Choose What Counts as a Conversion](02-03-conversion-strategy.md) |
@@ -100,6 +104,8 @@ instead of meeting a new company every time:
 | 4.4 | [The Settings That Quietly Waste Your Money](04-04-campaign-settings-deep-dive.md) |
 | 4.5 | [Raise Your Quality Score and Pay Less](04-05-quality-score-engineering.md) |
 | 4.6 | [Build a Complete Campaign, Step by Step](04-06-live-build-one-perfect-campaign.md) |
+| 4.7 | [Call Campaigns and Call-Only Ads](04-07-call-campaigns.md) |
+| 4.8 | [Rescue a Broken Account, Step by Step](04-08-live-rescue-broken-account.md) |
 
 ## Phase 3 — Bidding and Other Ad Types
 
@@ -124,6 +130,8 @@ instead of meeting a new company every time:
 | 6.5 | [Making YouTube Ads That People Watch](06-05-youtube-and-video.md) |
 | 6.6 | [Remarketing: Cheap Clicks, Expensive Mistakes](06-06-display-and-remarketing.md) |
 | 6.7 | [Audiences: Show Ads to the Right People](06-07-audiences.md) |
+| 6.8 | [Local Services Ads: Pay Per Lead, Not Per Click](06-08-local-services-ads.md) |
+| 6.9 | [Standard Shopping Campaigns, and When to Use Them](06-09-standard-shopping-campaigns.md) |
 
 ## Phase 4 — Tracking and Reading Your Results
 
@@ -142,6 +150,7 @@ instead of meeting a new company every time:
 
 | # | Lesson |
 |---|---|
+| 8.0 | [Reading Your GA4 Reports](08-00-reading-ga4-reports.md) |
 | 8.1 | [Can You Grow? Reading Impression Share](08-01-impression-share-scaling-framework.md) |
 | 8.2 | [Build Reports Your Client Will Actually Read](08-02-looker-studio-and-reporting.md) |
 | 8.3 | [What to Do When You Have Too Few Sales](08-03-micro-macro-conversion-modeling.md) |
@@ -265,9 +274,9 @@ exactly the problem the course exists to fix.
 - 14.2 (built on ideas, not features — but check the product names)
 
 **Rebuilding the web version:** edit any lesson, then run `bash _build/build.sh`
-and publish `_build/index.html` again.
+then publish `index.html` again (or run `bash publish.sh`).
 
 **About the examples:** Sana, Dr. Ayesha, TaskFlow, Bilal and Ali are made-up
-businesses used to teach. The numbers are realistic and match across all 81
+businesses used to teach. The numbers are realistic and match across all 90
 lessons, but they are teaching examples, not real companies. This is said plainly
 at the end of Lesson 14.5.

@@ -396,4 +396,4 @@ You now understand how Google works underneath: the auction, the channels, the i
 4. Justify every campaign split using the four reasons
 5. Write an appeal letter without panicking
 
-**Next:** Module 2 — Set Up Your Account and Tracking. We build the tracking that everything else depends on.
+**Next lesson:** 1.6 — Finding Your Way Around the Google Ads Screen

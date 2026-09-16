@@ -251,7 +251,7 @@ Bilal now has one rule written at the top of his onboarding document: *"Before c
 
 ## 📊 Mastery Score
 
-**Level: Beginner (but permanent consequences)**
+**Level: Beginner**
 
 This is a simple lesson with expensive mistakes. There is no skill here — only care.
 

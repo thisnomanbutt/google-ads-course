@@ -430,7 +430,7 @@ By day 30 she added a tCPA of PKR 1,600 (Lesson 5.3), and by day 60 the campaign
 
 ## 📊 Mastery Score
 
-**Level: Intermediate to Advanced**
+**Level: Advanced**
 
 If you can complete this build unaided, you can competently launch a Search campaign for any business. That is a really employable skill.
 
@@ -538,4 +538,4 @@ You can now build a complete, professional Search campaign from nothing. Confirm
 5. Diagnose and improve Quality Score
 6. Complete the 20-point launch checklist unaided
 
-**Next:** Phase 3, Module 5 — How to Set Your Bids. The campaign is live. Now we teach the machine.
+**Next lesson:** 4.7 — Call Campaigns and Call-Only Ads

@@ -361,7 +361,7 @@ That sentence summarises Phase 4 entirely.
 
 ## 📊 Mastery Score
 
-**Level: Elite**
+**Level: Expert**
 
 Fewer than one in twenty lead generation accounts run offline conversion feedback properly. This capability alone can justify a premium retainer.
 
