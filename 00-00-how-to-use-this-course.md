@@ -7,7 +7,7 @@
 
 ## 🎯 What You Will Learn
 
-- What this course will teach you, and what it will not
+- What this course will teach you and what it will not
 - The seven ranks, from Beginner to Top 1%
 - Why the order matters, and why you must not skip ahead
 - How much time each part takes
