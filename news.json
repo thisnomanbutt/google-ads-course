@@ -35,7 +35,27 @@
   ],
   "entries": [
     {
-      "id": "google-ads-2026-09-18-0",
+      "id": "google-ads-2026-09-23-0",
+      "date": "2026-09-23",
+      "type": "news",
+      "source": "Google Ads",
+      "title": "We’re bringing AI Brief to more languages and adding a new AI Max reporting feature.",
+      "body": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AIMax_morelanguages_social.max-600x600.format-webp.webp\">We’re making it easier to create great AI Max campaigns by adding a new reporting feature and bringing AI Brief to more languages.",
+      "url": "https://blog.google/products/ads-commerce/ai-max-language-reporting-features/",
+      "live": true
+    },
+    {
+      "id": "ads-api-2026-09-23-0",
+      "date": "2026-09-23",
+      "type": "news",
+      "source": "Ads API",
+      "title": "Announcing v25.2 of the Google Ads API",
+      "body": "<p> Today we are announcing the release of v25.2 of the Google Ads API. To use the new capabilities, you must upgrade your <a…",
+      "url": "http://ads-developers.googleblog.com/2026/09/announcing-v252-of-google-ads-api.html",
+      "live": true
+    },
+    {
+      "id": "google-ads-2026-09-18-1",
       "date": "2026-09-18",
       "type": "news",
       "source": "Google Ads",
@@ -45,7 +65,7 @@
       "live": true
     },
     {
-      "id": "google-ads-2026-09-16-1",
+      "id": "google-ads-2026-09-16-2",
       "date": "2026-09-16",
       "type": "news",
       "source": "Google Ads",
@@ -55,7 +75,7 @@
       "live": true
     },
     {
-      "id": "google-ads-2026-09-16-2",
+      "id": "google-ads-2026-09-16-3",
       "date": "2026-09-16",
       "type": "news",
       "source": "Google Ads",
@@ -65,7 +85,7 @@
       "live": true
     },
     {
-      "id": "google-ads-2026-09-16-3",
+      "id": "google-ads-2026-09-16-4",
       "date": "2026-09-16",
       "type": "news",
       "source": "Google Ads",
@@ -95,7 +115,7 @@
       "live": true
     },
     {
-      "id": "google-ads-2026-09-10-4",
+      "id": "google-ads-2026-09-10-5",
       "date": "2026-09-10",
       "type": "news",
       "source": "Google Ads",
@@ -105,7 +125,7 @@
       "live": true
     },
     {
-      "id": "google-ads-2026-09-10-5",
+      "id": "google-ads-2026-09-10-6",
       "date": "2026-09-10",
       "type": "news",
       "source": "Google Ads",
@@ -115,7 +135,7 @@
       "live": true
     },
     {
-      "id": "ads-api-2026-09-10-0",
+      "id": "ads-api-2026-09-10-1",
       "date": "2026-09-10",
       "type": "news",
       "source": "Ads API",
@@ -145,7 +165,7 @@
       "live": true
     },
     {
-      "id": "google-ads-2026-09-02-6",
+      "id": "google-ads-2026-09-02-7",
       "date": "2026-09-02",
       "type": "news",
       "source": "Google Ads",
@@ -155,7 +175,7 @@
       "live": true
     },
     {
-      "id": "ads-api-2026-09-02-1",
+      "id": "ads-api-2026-09-02-2",
       "date": "2026-09-02",
       "type": "news",
       "source": "Ads API",
@@ -165,7 +185,7 @@
       "live": true
     },
     {
-      "id": "ads-api-2026-08-31-2",
+      "id": "ads-api-2026-08-31-3",
       "date": "2026-08-31",
       "type": "news",
       "source": "Ads API",
@@ -185,17 +205,7 @@
       "live": true
     },
     {
-      "id": "google-ads-2026-08-27-7",
-      "date": "2026-08-27",
-      "type": "news",
-      "source": "Google Ads",
-      "title": "Reach your audience in new ways with August’s Demand Gen Drop.",
-      "body": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/August_Demand_Gen_Drop.max-600x600.format-webp.webp\">Drive high-quality leads and acquire customers with new messaging, travel, and creative features in YouTube’s August Demand Gen Drop.",
-      "url": "https://blog.google/products/ads-commerce/demand-gen-drop-august-2026/",
-      "live": true
-    },
-    {
-      "id": "ads-api-2026-08-27-3",
+      "id": "ads-api-2026-08-27-4",
       "date": "2026-08-27",
       "type": "news",
       "source": "Ads API",
@@ -205,23 +215,13 @@
       "live": true
     },
     {
-      "id": "ads-api-2026-08-25-4",
+      "id": "ads-api-2026-08-25-5",
       "date": "2026-08-25",
       "type": "news",
       "source": "Ads API",
       "title": "Google Ads API Developer Assistant v4.0.0",
       "body": "<p> A major release of the <strong><a target=\"_blank\" href=\"https://github.com/googleads/google-ads-api-developer-assistant\">Google Ads API Developer Assistant</a></strong> is now available. This release transitions the assistant from a standalone project setup to a unified plugin architecture…",
       "url": "http://ads-developers.googleblog.com/2026/08/google-ads-api-developer-assistant-v400.html",
-      "live": true
-    },
-    {
-      "id": "ads-api-2026-08-19-5",
-      "date": "2026-08-19",
-      "type": "news",
-      "source": "Ads API",
-      "title": "Announcing v25.1 of the Google Ads API",
-      "body": "<p> Today we are announcing the release of v25.1 of the <a href=\"https://developers.google.com/google-ads/api?utm_source=googleblog-adsdevs&utm_medium=blog&utm_campaign=adr-adsapi-release-v25&utm_content=learnmore-api\">Google Ads API</a>. To use the new capabilities, you must upgrade your <a…",
-      "url": "http://ads-developers.googleblog.com/2026/08/announcing-v251-of-google-ads-api.html",
       "live": true
     },
     {
@@ -422,7 +422,7 @@
       }
     }
   ],
-  "updated": "2026-09-23T05:08:54.957Z",
+  "updated": "2026-09-24T05:08:59.235Z",
   "feeds": [
     {
       "source": "Google Ads",
