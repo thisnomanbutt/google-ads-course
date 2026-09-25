@@ -35,7 +35,27 @@
   ],
   "entries": [
     {
-      "id": "google-ads-2026-09-23-0",
+      "id": "google-ads-2026-09-24-0",
+      "date": "2026-09-24",
+      "type": "news",
+      "source": "Google Ads",
+      "title": "Turn discovery into action with September’s Demand Gen Drop.",
+      "body": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Demand_Gen_Drop_-_September.max-600x600.format-webp.webp\">Turn discovery into action with new seamless experiences and integrations from YouTube’s September Demand Gen Drop.",
+      "url": "https://blog.google/products/ads-commerce/demand-gen-drop-september-2026/",
+      "live": true
+    },
+    {
+      "id": "search-2026-09-24-0",
+      "date": "2026-09-24",
+      "type": "news",
+      "source": "Google Search",
+      "title": "Announcing web multimodal Search performance reporting in Search Console",
+      "body": "Understanding how users find your content is crucial for any publisher or site owner. As Search evolves to include more visual and multimodal experiences, we want to ensure you have the data you need to analyze your performance.",
+      "url": "https://developers.google.com/search/blog/2026/09/web-multimodal-in-sc",
+      "live": true
+    },
+    {
+      "id": "google-ads-2026-09-23-1",
       "date": "2026-09-23",
       "type": "news",
       "source": "Google Ads",
@@ -55,7 +75,7 @@
       "live": true
     },
     {
-      "id": "google-ads-2026-09-18-1",
+      "id": "google-ads-2026-09-18-2",
       "date": "2026-09-18",
       "type": "news",
       "source": "Google Ads",
@@ -65,7 +85,7 @@
       "live": true
     },
     {
-      "id": "google-ads-2026-09-16-2",
+      "id": "google-ads-2026-09-16-3",
       "date": "2026-09-16",
       "type": "news",
       "source": "Google Ads",
@@ -75,7 +95,7 @@
       "live": true
     },
     {
-      "id": "google-ads-2026-09-16-3",
+      "id": "google-ads-2026-09-16-4",
       "date": "2026-09-16",
       "type": "news",
       "source": "Google Ads",
@@ -85,7 +105,7 @@
       "live": true
     },
     {
-      "id": "google-ads-2026-09-16-4",
+      "id": "google-ads-2026-09-16-5",
       "date": "2026-09-16",
       "type": "news",
       "source": "Google Ads",
@@ -95,7 +115,7 @@
       "live": true
     },
     {
-      "id": "search-2026-09-16-0",
+      "id": "search-2026-09-16-1",
       "date": "2026-09-16",
       "type": "news",
       "source": "Google Search",
@@ -105,7 +125,7 @@
       "live": true
     },
     {
-      "id": "search-2026-09-14-1",
+      "id": "search-2026-09-14-2",
       "date": "2026-09-14",
       "type": "news",
       "source": "Google Search",
@@ -115,7 +135,7 @@
       "live": true
     },
     {
-      "id": "google-ads-2026-09-10-5",
+      "id": "google-ads-2026-09-10-6",
       "date": "2026-09-10",
       "type": "news",
       "source": "Google Ads",
@@ -125,7 +145,7 @@
       "live": true
     },
     {
-      "id": "google-ads-2026-09-10-6",
+      "id": "google-ads-2026-09-10-7",
       "date": "2026-09-10",
       "type": "news",
       "source": "Google Ads",
@@ -155,23 +175,13 @@
       "live": true
     },
     {
-      "id": "search-2026-09-08-2",
+      "id": "search-2026-09-08-3",
       "date": "2026-09-08",
       "type": "news",
       "source": "Google Search",
       "title": "Search Central Live is coming to Bogota and Ciudad de México",
       "body": "Leer en español",
       "url": "https://developers.google.com/search/blog/2026/09/search-central-live-mexico-and-colombia",
-      "live": true
-    },
-    {
-      "id": "google-ads-2026-09-02-7",
-      "date": "2026-09-02",
-      "type": "news",
-      "source": "Google Ads",
-      "title": "Build a measurement stack you can rely on to steer your campaigns.",
-      "body": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/S2E2_thumbnail.max-600x600.format-webp.webp\">In this Ads Decoded episode, we discuss how to assess marketing campaigns with attribution, incrementality, and media mix models.",
-      "url": "https://blog.google/products/ads-commerce/ads-decoded-podcast-measurement-stack/",
       "live": true
     },
     {
@@ -195,7 +205,7 @@
       "live": true
     },
     {
-      "id": "search-2026-08-28-3",
+      "id": "search-2026-08-28-4",
       "date": "2026-08-28",
       "type": "news",
       "source": "Google Search",
@@ -232,16 +242,6 @@
       "title": "Evolve your marketing with new AI tools",
       "body": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Advisor_Header.max-600x600.format-webp.webp\">Learn how new AI and agentic experiences across Google Ads and Google Analytics can simplify your marketing workflow.",
       "url": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/",
-      "live": true
-    },
-    {
-      "id": "search-2026-07-29-4",
-      "date": "2026-07-29",
-      "type": "news",
-      "source": "Google Search",
-      "title": "Platform properties roll out globally, plus a new social and video performance guide",
-      "body": "Earlier this month, we announced platform properties for Search Console, allowing you to track how your social and video posts on Instagram, TikTok, X, and YouTube perform on Google Search, Discover, and Google News. Today, platform properties are globally available to everyone.",
-      "url": "https://developers.google.com/search/blog/2026/07/platform-properties-social-video-guide",
       "live": true
     },
     {
@@ -422,7 +422,7 @@
       }
     }
   ],
-  "updated": "2026-09-24T05:08:59.235Z",
+  "updated": "2026-09-25T05:08:50.213Z",
   "feeds": [
     {
       "source": "Google Ads",
