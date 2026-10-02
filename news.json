@@ -35,6 +35,16 @@
   ],
   "entries": [
     {
+      "id": "google-ads-2026-10-01-0",
+      "date": "2026-10-01",
+      "type": "news",
+      "source": "Google Ads",
+      "title": "Turn your existing social assets into high-impact YouTube ads.",
+      "body": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/S2E5_thumbnail.max-600x600.format-webp.webp\">In this Ads Decoded episode, we discuss ad creative — and how it can make or break your YouTube campaigns.",
+      "url": "https://blog.google/products/ads-commerce/creating-assets-youtube-ads/",
+      "live": true
+    },
+    {
       "id": "marketing-platform-2026-09-28-0",
       "date": "2026-09-28",
       "type": "news",
@@ -45,7 +55,7 @@
       "live": true
     },
     {
-      "id": "google-ads-2026-09-24-0",
+      "id": "google-ads-2026-09-24-1",
       "date": "2026-09-24",
       "type": "news",
       "source": "Google Ads",
@@ -65,7 +75,7 @@
       "live": true
     },
     {
-      "id": "google-ads-2026-09-23-1",
+      "id": "google-ads-2026-09-23-2",
       "date": "2026-09-23",
       "type": "news",
       "source": "Google Ads",
@@ -85,7 +95,7 @@
       "live": true
     },
     {
-      "id": "google-ads-2026-09-18-2",
+      "id": "google-ads-2026-09-18-3",
       "date": "2026-09-18",
       "type": "news",
       "source": "Google Ads",
@@ -95,7 +105,7 @@
       "live": true
     },
     {
-      "id": "google-ads-2026-09-16-3",
+      "id": "google-ads-2026-09-16-4",
       "date": "2026-09-16",
       "type": "news",
       "source": "Google Ads",
@@ -105,7 +115,7 @@
       "live": true
     },
     {
-      "id": "google-ads-2026-09-16-4",
+      "id": "google-ads-2026-09-16-5",
       "date": "2026-09-16",
       "type": "news",
       "source": "Google Ads",
@@ -115,7 +125,7 @@
       "live": true
     },
     {
-      "id": "google-ads-2026-09-16-5",
+      "id": "google-ads-2026-09-16-6",
       "date": "2026-09-16",
       "type": "news",
       "source": "Google Ads",
@@ -145,23 +155,13 @@
       "live": true
     },
     {
-      "id": "google-ads-2026-09-10-6",
+      "id": "google-ads-2026-09-10-7",
       "date": "2026-09-10",
       "type": "news",
       "source": "Google Ads",
       "title": "3 ways to prep for your next big race with Search",
       "body": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Search_Race_Running_Tips.max-600x600.format-webp.webp\">Search can help runners get race-day ready with registration alerts, tailored training plans, and more.",
       "url": "https://blog.google/products-and-platforms/products/search/running-race-training-tips/",
-      "live": true
-    },
-    {
-      "id": "google-ads-2026-09-10-7",
-      "date": "2026-09-10",
-      "type": "news",
-      "source": "Google Ads",
-      "title": "Drive profitable growth with new data and measurement tools",
-      "body": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Header_EnnLoZX.max-600x600.format-webp.webp\">New capabilities across our measurement suite can help you make better, faster decisions that drive business growth.",
-      "url": "https://blog.google/products/ads-commerce/data-strength-updates/",
       "live": true
     },
     {
@@ -422,7 +422,7 @@
       }
     }
   ],
-  "updated": "2026-10-01T11:21:27.151Z",
+  "updated": "2026-10-02T10:52:38.126Z",
   "feeds": [
     {
       "source": "Google Ads",
