@@ -35,6 +35,16 @@
   ],
   "entries": [
     {
+      "id": "search-2026-10-06-0",
+      "date": "2026-10-06",
+      "type": "news",
+      "source": "Google Search",
+      "title": "New learning paths: curated YouTube playlists for Search fundamentals and Technical SEO",
+      "body": "Over the years, the Search Central YouTube channel has published hundreds of videos across various series, from Search for Beginners and Ask Googlebot to Search Console Training and Search Off the Record. While our series structure works well for deep dives and episodic updates, we know that…",
+      "url": "https://developers.google.com/search/blog/2026/10/seo-learning-paths",
+      "live": true
+    },
+    {
       "id": "google-ads-2026-10-01-0",
       "date": "2026-10-01",
       "type": "news",
@@ -65,7 +75,7 @@
       "live": true
     },
     {
-      "id": "search-2026-09-24-0",
+      "id": "search-2026-09-24-1",
       "date": "2026-09-24",
       "type": "news",
       "source": "Google Search",
@@ -135,7 +145,7 @@
       "live": true
     },
     {
-      "id": "search-2026-09-16-1",
+      "id": "search-2026-09-16-2",
       "date": "2026-09-16",
       "type": "news",
       "source": "Google Search",
@@ -145,7 +155,7 @@
       "live": true
     },
     {
-      "id": "search-2026-09-14-2",
+      "id": "search-2026-09-14-3",
       "date": "2026-09-14",
       "type": "news",
       "source": "Google Search",
@@ -185,7 +195,7 @@
       "live": true
     },
     {
-      "id": "search-2026-09-08-3",
+      "id": "search-2026-09-08-4",
       "date": "2026-09-08",
       "type": "news",
       "source": "Google Search",
@@ -212,16 +222,6 @@
       "title": "Making Google Ads More Secure with Updates to Developer Policies",
       "body": "<p> We are updating our <a target=\"_blank\" href=\"https://support.google.com/adspolicy/answer/6169371?hl=en\">Google Ads Developer Policies</a> formerly the “Google Ads API Policy”, to support developers in building robust, high-quality integrations as new AI capabilities continue to shape the…",
       "url": "http://ads-developers.googleblog.com/2026/08/making-google-ads-more-secure-with.html",
-      "live": true
-    },
-    {
-      "id": "search-2026-08-28-4",
-      "date": "2026-08-28",
-      "type": "news",
-      "source": "Google Search",
-      "title": "Update to the Site Reputation Policy",
-      "body": "In 2024, we introduced our site reputation policy to stop a practice where third-party content is published on a trusted website just to exploit that site's good reputation to rank higher in Search. This practice hurts search quality, and creates a bad experience for users.",
-      "url": "https://developers.google.com/search/blog/2026/08/update-site-reputation-policy",
       "live": true
     },
     {
@@ -422,7 +422,7 @@
       }
     }
   ],
-  "updated": "2026-10-06T11:47:15.937Z",
+  "updated": "2026-10-07T11:30:52.304Z",
   "feeds": [
     {
       "source": "Google Ads",
