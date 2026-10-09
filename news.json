@@ -35,6 +35,16 @@
   ],
   "entries": [
     {
+      "id": "ads-api-2026-10-09-0",
+      "date": "2026-10-09",
+      "type": "news",
+      "source": "Ads API",
+      "title": "Launching Structured Data Files v11",
+      "body": "<p> Today we’re announcing the general availability of <a target=\"_blank\" href=\"https://developers.google.com/display-video/api/structured-data-file/format?utm_source=googleblog-adsdevs&utm_medium=blog&utm_campaign=adr-sdf-v11-launch-announcement&utm_content=learnmore-refdocs#v11\">Structured…",
+      "url": "http://ads-developers.googleblog.com/2026/10/launching-structured-data-files-v11.html",
+      "live": true
+    },
+    {
       "id": "search-2026-10-06-0",
       "date": "2026-10-06",
       "type": "news",
@@ -95,7 +105,7 @@
       "live": true
     },
     {
-      "id": "ads-api-2026-09-23-0",
+      "id": "ads-api-2026-09-23-1",
       "date": "2026-09-23",
       "type": "news",
       "source": "Ads API",
@@ -175,7 +185,7 @@
       "live": true
     },
     {
-      "id": "ads-api-2026-09-10-1",
+      "id": "ads-api-2026-09-10-2",
       "date": "2026-09-10",
       "type": "news",
       "source": "Ads API",
@@ -205,7 +215,7 @@
       "live": true
     },
     {
-      "id": "ads-api-2026-09-02-2",
+      "id": "ads-api-2026-09-02-3",
       "date": "2026-09-02",
       "type": "news",
       "source": "Ads API",
@@ -215,7 +225,7 @@
       "live": true
     },
     {
-      "id": "ads-api-2026-08-31-3",
+      "id": "ads-api-2026-08-31-4",
       "date": "2026-08-31",
       "type": "news",
       "source": "Ads API",
@@ -225,23 +235,13 @@
       "live": true
     },
     {
-      "id": "ads-api-2026-08-27-4",
+      "id": "ads-api-2026-08-27-5",
       "date": "2026-08-27",
       "type": "news",
       "source": "Ads API",
       "title": "October 2026 changes to the Display & Video 360 API and Structured Data Files",
       "body": "<p> Today we’re announcing three unversioned changes to the Display & Video 360 API and Structured Data Files that will take effect in <strong>October 2026 </strong>and may impact your existing integrations. </p> <p> These changes will take place on the following dates and have been fully…",
       "url": "http://ads-developers.googleblog.com/2026/08/october-2026-changes-to-display-video.html",
-      "live": true
-    },
-    {
-      "id": "ads-api-2026-08-25-5",
-      "date": "2026-08-25",
-      "type": "news",
-      "source": "Ads API",
-      "title": "Google Ads API Developer Assistant v4.0.0",
-      "body": "<p> A major release of the <strong><a target=\"_blank\" href=\"https://github.com/googleads/google-ads-api-developer-assistant\">Google Ads API Developer Assistant</a></strong> is now available. This release transitions the assistant from a standalone project setup to a unified plugin architecture…",
-      "url": "http://ads-developers.googleblog.com/2026/08/google-ads-api-developer-assistant-v400.html",
       "live": true
     },
     {
@@ -422,7 +422,7 @@
       }
     }
   ],
-  "updated": "2026-10-08T11:46:11.328Z",
+  "updated": "2026-10-09T11:39:01.742Z",
   "feeds": [
     {
       "source": "Google Ads",
