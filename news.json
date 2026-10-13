@@ -35,7 +35,17 @@
   ],
   "entries": [
     {
-      "id": "ads-api-2026-10-09-0",
+      "id": "ads-api-2026-10-12-0",
+      "date": "2026-10-12",
+      "type": "news",
+      "source": "Ads API",
+      "title": "Google Ads API Release and Sunset Schedules for 2026-2027",
+      "body": "<p> Last year, we shifted to a <a target=\"_blank\" href=\"https://ads-developers.googleblog.com/2025/09/more-frequent-releases-coming-for.html\">monthly release schedule</a> for the Google Ads API to provide you faster API access to Ads features available in the <a target=\"_blank\"…",
+      "url": "http://ads-developers.googleblog.com/2026/10/google-ads-api-release-and-sunset.html",
+      "live": true
+    },
+    {
+      "id": "ads-api-2026-10-09-1",
       "date": "2026-10-09",
       "type": "news",
       "source": "Ads API",
@@ -105,7 +115,7 @@
       "live": true
     },
     {
-      "id": "ads-api-2026-09-23-1",
+      "id": "ads-api-2026-09-23-2",
       "date": "2026-09-23",
       "type": "news",
       "source": "Ads API",
@@ -185,7 +195,7 @@
       "live": true
     },
     {
-      "id": "ads-api-2026-09-10-2",
+      "id": "ads-api-2026-09-10-3",
       "date": "2026-09-10",
       "type": "news",
       "source": "Ads API",
@@ -215,7 +225,7 @@
       "live": true
     },
     {
-      "id": "ads-api-2026-09-02-3",
+      "id": "ads-api-2026-09-02-4",
       "date": "2026-09-02",
       "type": "news",
       "source": "Ads API",
@@ -225,23 +235,13 @@
       "live": true
     },
     {
-      "id": "ads-api-2026-08-31-4",
+      "id": "ads-api-2026-08-31-5",
       "date": "2026-08-31",
       "type": "news",
       "source": "Ads API",
       "title": "Making Google Ads More Secure with Updates to Developer Policies",
       "body": "<p> We are updating our <a target=\"_blank\" href=\"https://support.google.com/adspolicy/answer/6169371?hl=en\">Google Ads Developer Policies</a> formerly the “Google Ads API Policy”, to support developers in building robust, high-quality integrations as new AI capabilities continue to shape the…",
       "url": "http://ads-developers.googleblog.com/2026/08/making-google-ads-more-secure-with.html",
-      "live": true
-    },
-    {
-      "id": "ads-api-2026-08-27-5",
-      "date": "2026-08-27",
-      "type": "news",
-      "source": "Ads API",
-      "title": "October 2026 changes to the Display & Video 360 API and Structured Data Files",
-      "body": "<p> Today we’re announcing three unversioned changes to the Display & Video 360 API and Structured Data Files that will take effect in <strong>October 2026 </strong>and may impact your existing integrations. </p> <p> These changes will take place on the following dates and have been fully…",
-      "url": "http://ads-developers.googleblog.com/2026/08/october-2026-changes-to-display-video.html",
       "live": true
     },
     {
@@ -422,7 +422,7 @@
       }
     }
   ],
-  "updated": "2026-10-12T12:44:26.353Z",
+  "updated": "2026-10-13T12:27:15.144Z",
   "feeds": [
     {
       "source": "Google Ads",
