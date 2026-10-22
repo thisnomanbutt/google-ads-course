@@ -35,7 +35,27 @@
   ],
   "entries": [
     {
-      "id": "google-ads-2026-10-20-0",
+      "id": "google-ads-2026-10-21-0",
+      "date": "2026-10-21",
+      "type": "news",
+      "source": "Google Ads",
+      "title": "New bidding and budgeting tools can transform your upcoming holiday ad strategy.",
+      "body": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/S2E6_thumbnail.max-600x600.format-webp.webp\">Get actionable insights on bidding and budgeting tools in the latest episode of Google's \"Ads Decoded\" podcast.",
+      "url": "https://blog.google/products/ads-commerce/holiday-shopping-bidding-budgeting/",
+      "live": true
+    },
+    {
+      "id": "ads-api-2026-10-21-0",
+      "date": "2026-10-21",
+      "type": "news",
+      "source": "Ads API",
+      "title": "Upcoming changes to image extraction in Performance Max campaigns starting December 4, 2026",
+      "body": "<p> Starting <strong>December 4, 2026</strong>, image extraction (<code><a target=\"_blank\"…",
+      "url": "http://ads-developers.googleblog.com/2026/10/upcoming-changes-to-image-extraction-in.html",
+      "live": true
+    },
+    {
+      "id": "google-ads-2026-10-20-1",
       "date": "2026-10-20",
       "type": "news",
       "source": "Google Ads",
@@ -45,7 +65,7 @@
       "live": true
     },
     {
-      "id": "google-ads-2026-10-15-1",
+      "id": "google-ads-2026-10-15-2",
       "date": "2026-10-15",
       "type": "news",
       "source": "Google Ads",
@@ -55,7 +75,7 @@
       "live": true
     },
     {
-      "id": "google-ads-2026-10-15-2",
+      "id": "google-ads-2026-10-15-3",
       "date": "2026-10-15",
       "type": "news",
       "source": "Google Ads",
@@ -65,7 +85,7 @@
       "live": true
     },
     {
-      "id": "google-ads-2026-10-14-3",
+      "id": "google-ads-2026-10-14-4",
       "date": "2026-10-14",
       "type": "news",
       "source": "Google Ads",
@@ -75,7 +95,7 @@
       "live": true
     },
     {
-      "id": "ads-api-2026-10-14-0",
+      "id": "ads-api-2026-10-14-1",
       "date": "2026-10-14",
       "type": "news",
       "source": "Ads API",
@@ -85,7 +105,7 @@
       "live": true
     },
     {
-      "id": "google-ads-2026-10-13-4",
+      "id": "google-ads-2026-10-13-5",
       "date": "2026-10-13",
       "type": "news",
       "source": "Google Ads",
@@ -95,7 +115,7 @@
       "live": true
     },
     {
-      "id": "ads-api-2026-10-12-1",
+      "id": "ads-api-2026-10-12-2",
       "date": "2026-10-12",
       "type": "news",
       "source": "Ads API",
@@ -105,7 +125,7 @@
       "live": true
     },
     {
-      "id": "ads-api-2026-10-09-2",
+      "id": "ads-api-2026-10-09-3",
       "date": "2026-10-09",
       "type": "news",
       "source": "Ads API",
@@ -125,7 +145,7 @@
       "live": true
     },
     {
-      "id": "google-ads-2026-10-01-5",
+      "id": "google-ads-2026-10-01-6",
       "date": "2026-10-01",
       "type": "news",
       "source": "Google Ads",
@@ -145,7 +165,7 @@
       "live": true
     },
     {
-      "id": "google-ads-2026-09-24-6",
+      "id": "google-ads-2026-09-24-7",
       "date": "2026-09-24",
       "type": "news",
       "source": "Google Ads",
@@ -165,17 +185,7 @@
       "live": true
     },
     {
-      "id": "google-ads-2026-09-23-7",
-      "date": "2026-09-23",
-      "type": "news",
-      "source": "Google Ads",
-      "title": "We’re bringing AI Brief to more languages and adding a new AI Max reporting feature.",
-      "body": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AIMax_morelanguages_social.max-600x600.format-webp.webp\">We’re making it easier to create great AI Max campaigns by adding a new reporting feature and bringing AI Brief to more languages.",
-      "url": "https://blog.google/products/ads-commerce/ai-max-language-reporting-features/",
-      "live": true
-    },
-    {
-      "id": "ads-api-2026-09-23-3",
+      "id": "ads-api-2026-09-23-4",
       "date": "2026-09-23",
       "type": "news",
       "source": "Ads API",
@@ -205,7 +215,7 @@
       "live": true
     },
     {
-      "id": "ads-api-2026-09-10-4",
+      "id": "ads-api-2026-09-10-5",
       "date": "2026-09-10",
       "type": "news",
       "source": "Ads API",
@@ -232,16 +242,6 @@
       "title": "Search Central Live is coming to Bogota and Ciudad de México",
       "body": "Leer en español",
       "url": "https://developers.google.com/search/blog/2026/09/search-central-live-mexico-and-colombia",
-      "live": true
-    },
-    {
-      "id": "ads-api-2026-09-02-5",
-      "date": "2026-09-02",
-      "type": "news",
-      "source": "Ads API",
-      "title": "Google Ads API v22 sunset reminder",
-      "body": "<p> Google Ads API v22 will <a target=\"_blank\" href=\"https://developers.google.com/google-ads/api/docs/sunset-dates?utm_source=googleblog-adsdevs&utm_medium=blog&utm_campaign=adr-v22-sunset&utm_content=readmore-deprecationandsunset\">sunset</a> on October 7, 2026. Starting on this date, all v22…",
-      "url": "http://ads-developers.googleblog.com/2026/09/google-ads-api-v22-sunset-reminder.html",
       "live": true
     },
     {
@@ -422,7 +422,7 @@
       }
     }
   ],
-  "updated": "2026-10-21T09:49:01.912Z",
+  "updated": "2026-10-22T09:50:01.764Z",
   "feeds": [
     {
       "source": "Google Ads",
