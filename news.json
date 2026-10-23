@@ -35,6 +35,26 @@
   ],
   "entries": [
     {
+      "id": "ads-api-2026-10-22-0",
+      "date": "2026-10-22",
+      "type": "news",
+      "source": "Ads API",
+      "title": "Announcing beta launch of Display & Video 360 API v5",
+      "body": "<p> We’re pleased to announce that <a target=\"_blank\" href=\"https://developers.google.com/display-video/api/reference/rest/v5?utm_source=googleblog-adsdevs&utm_medium=blog&utm_campaign=adr-dv360api-v5-beta-launch&utm_content=learnmore-refdocs\">Display & Video 360 API v5</a> is available in…",
+      "url": "http://ads-developers.googleblog.com/2026/10/announcing-beta-launch-of-display-video.html",
+      "live": true
+    },
+    {
+      "id": "marketing-platform-2026-10-22-0",
+      "date": "2026-10-22",
+      "type": "news",
+      "source": "Marketing Platform",
+      "title": "Explore new ways to drive your best ROI with the first Google Marketing Platform Drop.",
+      "body": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/106-GMP_Drops___Design_Slide01_.max-600x600.format-webp_5aUmqwN.webp\">Google Marketing Platform Drops, a new monthly series, delivers our latest news to help you get your best ROI across the full customer journey. We’ll…",
+      "url": "https://blog.google/products/marketingplatform/360/google-marketing-platform-drop-october/",
+      "live": true
+    },
+    {
       "id": "google-ads-2026-10-21-0",
       "date": "2026-10-21",
       "type": "news",
@@ -45,7 +65,7 @@
       "live": true
     },
     {
-      "id": "ads-api-2026-10-21-0",
+      "id": "ads-api-2026-10-21-1",
       "date": "2026-10-21",
       "type": "news",
       "source": "Ads API",
@@ -95,7 +115,7 @@
       "live": true
     },
     {
-      "id": "ads-api-2026-10-14-1",
+      "id": "ads-api-2026-10-14-2",
       "date": "2026-10-14",
       "type": "news",
       "source": "Ads API",
@@ -115,7 +135,7 @@
       "live": true
     },
     {
-      "id": "ads-api-2026-10-12-2",
+      "id": "ads-api-2026-10-12-3",
       "date": "2026-10-12",
       "type": "news",
       "source": "Ads API",
@@ -125,7 +145,7 @@
       "live": true
     },
     {
-      "id": "ads-api-2026-10-09-3",
+      "id": "ads-api-2026-10-09-4",
       "date": "2026-10-09",
       "type": "news",
       "source": "Ads API",
@@ -155,7 +175,7 @@
       "live": true
     },
     {
-      "id": "marketing-platform-2026-09-28-0",
+      "id": "marketing-platform-2026-09-28-1",
       "date": "2026-09-28",
       "type": "news",
       "source": "Marketing Platform",
@@ -185,7 +205,7 @@
       "live": true
     },
     {
-      "id": "ads-api-2026-09-23-4",
+      "id": "ads-api-2026-09-23-5",
       "date": "2026-09-23",
       "type": "news",
       "source": "Ads API",
@@ -215,17 +235,7 @@
       "live": true
     },
     {
-      "id": "ads-api-2026-09-10-5",
-      "date": "2026-09-10",
-      "type": "news",
-      "source": "Ads API",
-      "title": "A new onboarding experience for Google Ads API developers",
-      "body": "<p> To improve the developer onboarding and usage experience, we built a new homepage for the <a href=\"https://developers.google.com/google-ads/api/docs/start?utm_source=googleblog-adsdevs&utm_medium=blog&utm_campaign=adr-adsapi-devtoken-sunset&utm_content=learnmore-docs\">Google Ads API</a> in…",
-      "url": "http://ads-developers.googleblog.com/2026/09/new-onboarding-experience-for-google-ads-api.html",
-      "live": true
-    },
-    {
-      "id": "marketing-platform-2026-09-10-1",
+      "id": "marketing-platform-2026-09-10-2",
       "date": "2026-09-10",
       "type": "news",
       "source": "Marketing Platform",
@@ -245,7 +255,7 @@
       "live": true
     },
     {
-      "id": "marketing-platform-2026-08-10-2",
+      "id": "marketing-platform-2026-08-10-3",
       "date": "2026-08-10",
       "type": "news",
       "source": "Marketing Platform",
@@ -255,7 +265,7 @@
       "live": true
     },
     {
-      "id": "marketing-platform-2026-06-11-3",
+      "id": "marketing-platform-2026-06-11-4",
       "date": "2026-06-11",
       "type": "news",
       "source": "Marketing Platform",
@@ -265,23 +275,13 @@
       "live": true
     },
     {
-      "id": "marketing-platform-2026-05-20-4",
+      "id": "marketing-platform-2026-05-20-5",
       "date": "2026-05-20",
       "type": "news",
       "source": "Marketing Platform",
       "title": "Turn data into decisions with unified measurement.",
       "body": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/GML_Measurement_social.max-600x600.format-webp.webp\">We’re bringing Meridian, our open-source MMM to Google Analytics and introducing Future Long-Term Conversions.",
       "url": "https://blog.google/products/marketingplatform/analytics/meridian-google-analytics-360/",
-      "live": true
-    },
-    {
-      "id": "marketing-platform-2026-04-27-5",
-      "date": "2026-04-27",
-      "type": "news",
-      "source": "Marketing Platform",
-      "title": "Albertsons Media Collective brings retail signals to YouTube with Google’s Commerce Media Suite.",
-      "body": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Blog_social_share.max-600x600.format-webp.webp\">Supercharge performance across the shopper journey by connecting Albertsons data with Google’s AI and scale.",
-      "url": "https://blog.google/products/marketingplatform/360/albertsons-google-commerce-media-suite/",
       "live": true
     },
     {
@@ -422,7 +422,7 @@
       }
     }
   ],
-  "updated": "2026-10-22T09:50:01.764Z",
+  "updated": "2026-10-23T09:44:22.197Z",
   "feeds": [
     {
       "source": "Google Ads",
