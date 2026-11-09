@@ -35,6 +35,16 @@
   ],
   "entries": [
     {
+      "id": "google-ads-2026-11-09-0",
+      "date": "2026-11-09",
+      "type": "news",
+      "source": "Google Ads",
+      "title": "Holiday 100: Your guide to this year’s top trending gifts",
+      "body": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Blog-cover_Holiday100_2026.max-600x600.format-webp.webp\">Google’s Holiday 100 is here. Shop the gifts that are most popular this year and see the Search trends behind them.",
+      "url": "https://blog.google/products-and-platforms/products/shopping/holiday-100-gift-guide-2026/",
+      "live": true
+    },
+    {
       "id": "ads-api-2026-11-06-0",
       "date": "2026-11-06",
       "type": "news",
@@ -85,7 +95,7 @@
       "live": true
     },
     {
-      "id": "google-ads-2026-10-28-0",
+      "id": "google-ads-2026-10-28-1",
       "date": "2026-10-28",
       "type": "news",
       "source": "Google Ads",
@@ -95,7 +105,7 @@
       "live": true
     },
     {
-      "id": "google-ads-2026-10-28-1",
+      "id": "google-ads-2026-10-28-2",
       "date": "2026-10-28",
       "type": "news",
       "source": "Google Ads",
@@ -125,7 +135,7 @@
       "live": true
     },
     {
-      "id": "google-ads-2026-10-21-2",
+      "id": "google-ads-2026-10-21-3",
       "date": "2026-10-21",
       "type": "news",
       "source": "Google Ads",
@@ -145,7 +155,7 @@
       "live": true
     },
     {
-      "id": "google-ads-2026-10-20-3",
+      "id": "google-ads-2026-10-20-4",
       "date": "2026-10-20",
       "type": "news",
       "source": "Google Ads",
@@ -155,7 +165,7 @@
       "live": true
     },
     {
-      "id": "google-ads-2026-10-15-4",
+      "id": "google-ads-2026-10-15-5",
       "date": "2026-10-15",
       "type": "news",
       "source": "Google Ads",
@@ -165,7 +175,7 @@
       "live": true
     },
     {
-      "id": "google-ads-2026-10-15-5",
+      "id": "google-ads-2026-10-15-6",
       "date": "2026-10-15",
       "type": "news",
       "source": "Google Ads",
@@ -175,7 +185,7 @@
       "live": true
     },
     {
-      "id": "google-ads-2026-10-14-6",
+      "id": "google-ads-2026-10-14-7",
       "date": "2026-10-14",
       "type": "news",
       "source": "Google Ads",
@@ -192,16 +202,6 @@
       "title": "Announcing v26 of the Google Ads API",
       "body": "<p> Today we are announcing the release of v26 of the Google Ads API. To use the new capabilities, you must upgrade your <a…",
       "url": "http://ads-developers.googleblog.com/2026/10/announcing-v26-of-google-ads-api.html",
-      "live": true
-    },
-    {
-      "id": "google-ads-2026-10-13-7",
-      "date": "2026-10-13",
-      "type": "news",
-      "source": "Google Ads",
-      "title": "Build your data strength with October’s Demand Gen drop.",
-      "body": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Demand_Gen_Drop_-_October_2026.max-600x600.format-webp.webp\">Boost your measurement and ROI with YouTube’s October Demand Gen Drop.",
-      "url": "https://blog.google/products/ads-commerce/demand-gen-drop-october-2026/",
       "live": true
     },
     {
@@ -422,7 +422,7 @@
       }
     }
   ],
-  "updated": "2026-11-08T11:40:33.123Z",
+  "updated": "2026-11-09T13:36:48.367Z",
   "feeds": [
     {
       "source": "Google Ads",
