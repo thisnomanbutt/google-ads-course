@@ -35,7 +35,27 @@
   ],
   "entries": [
     {
-      "id": "google-ads-2026-11-12-0",
+      "id": "google-ads-2026-11-16-0",
+      "date": "2026-11-16",
+      "type": "news",
+      "source": "Google Ads",
+      "title": "How to find the best Black Friday deals and shop smarter",
+      "body": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Black_Friday_herosocial_alt.max-600x600.format-webp.webp\">Track price drops, organize your cart, and find thoughtful gifts faster this Black Friday and Cyber Monday with these Google tools.",
+      "url": "https://blog.google/products-and-platforms/products/shopping/black-friday-cyber-monday-shopping-tips-2026/",
+      "live": true
+    },
+    {
+      "id": "search-2026-11-16-0",
+      "date": "2026-11-16",
+      "type": "news",
+      "source": "Google Search",
+      "title": "New filtering and reporting capabilities in the Search Analytics API",
+      "body": "Over the past year, we introduced several updates to the Search Console Performance report to help you better slice and understand your traffic, including the branded queries filter, web multimodal search reporting, and multi-country and multi-device filtering.",
+      "url": "https://developers.google.com/search/blog/2026/11/search-analytics-api-update",
+      "live": true
+    },
+    {
+      "id": "google-ads-2026-11-12-1",
       "date": "2026-11-12",
       "type": "news",
       "source": "Google Ads",
@@ -45,7 +65,7 @@
       "live": true
     },
     {
-      "id": "search-2026-11-11-0",
+      "id": "search-2026-11-11-1",
       "date": "2026-11-11",
       "type": "news",
       "source": "Google Search",
@@ -65,7 +85,7 @@
       "live": true
     },
     {
-      "id": "google-ads-2026-11-09-1",
+      "id": "google-ads-2026-11-09-2",
       "date": "2026-11-09",
       "type": "news",
       "source": "Google Ads",
@@ -115,7 +135,7 @@
       "live": true
     },
     {
-      "id": "search-2026-11-04-1",
+      "id": "search-2026-11-04-2",
       "date": "2026-11-04",
       "type": "news",
       "source": "Google Search",
@@ -125,7 +145,7 @@
       "live": true
     },
     {
-      "id": "search-2026-10-30-2",
+      "id": "search-2026-10-30-3",
       "date": "2026-10-30",
       "type": "news",
       "source": "Google Search",
@@ -135,7 +155,7 @@
       "live": true
     },
     {
-      "id": "google-ads-2026-10-28-2",
+      "id": "google-ads-2026-10-28-3",
       "date": "2026-10-28",
       "type": "news",
       "source": "Google Ads",
@@ -145,7 +165,7 @@
       "live": true
     },
     {
-      "id": "google-ads-2026-10-28-3",
+      "id": "google-ads-2026-10-28-4",
       "date": "2026-10-28",
       "type": "news",
       "source": "Google Ads",
@@ -175,7 +195,7 @@
       "live": true
     },
     {
-      "id": "google-ads-2026-10-21-4",
+      "id": "google-ads-2026-10-21-5",
       "date": "2026-10-21",
       "type": "news",
       "source": "Google Ads",
@@ -185,7 +205,7 @@
       "live": true
     },
     {
-      "id": "google-ads-2026-10-20-5",
+      "id": "google-ads-2026-10-20-6",
       "date": "2026-10-20",
       "type": "news",
       "source": "Google Ads",
@@ -195,7 +215,7 @@
       "live": true
     },
     {
-      "id": "google-ads-2026-10-15-6",
+      "id": "google-ads-2026-10-15-7",
       "date": "2026-10-15",
       "type": "news",
       "source": "Google Ads",
@@ -205,17 +225,7 @@
       "live": true
     },
     {
-      "id": "google-ads-2026-10-15-7",
-      "date": "2026-10-15",
-      "type": "news",
-      "source": "Google Ads",
-      "title": "Data-backed secrets to smarter holiday shopping",
-      "body": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/When_to_buy_guide_resize.max-600x600.format-webp.webp\">Learn the best times to buy. Our new When to Buy Guide uses Google Search and discount data to show when holiday deals peak.",
-      "url": "https://blog.google/products-and-platforms/products/shopping/holiday-shopping-when-to-buy-guide/",
-      "live": true
-    },
-    {
-      "id": "search-2026-10-06-3",
+      "id": "search-2026-10-06-4",
       "date": "2026-10-06",
       "type": "news",
       "source": "Google Search",
@@ -232,16 +242,6 @@
       "title": "Introducing Vertical Video Unification with Display & Video 360.",
       "body": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/01_Blog_-_Header.max-600x600.format-webp.webp\">Unify vertical video buys with Google Display & Video 360. See how Unilever boosted reach by 24% using Gemini-powered measurement. Get the details.",
       "url": "https://blog.google/products/marketingplatform/360/vertical-video-unification/",
-      "live": true
-    },
-    {
-      "id": "search-2026-09-24-4",
-      "date": "2026-09-24",
-      "type": "news",
-      "source": "Google Search",
-      "title": "Announcing web multimodal Search performance reporting in Search Console",
-      "body": "Understanding how users find your content is crucial for any publisher or site owner. As Search evolves to include more visual and multimodal experiences, we want to ensure you have the data you need to analyze your performance.",
-      "url": "https://developers.google.com/search/blog/2026/09/web-multimodal-in-sc",
       "live": true
     },
     {
@@ -422,7 +422,7 @@
       }
     }
   ],
-  "updated": "2026-11-16T13:20:54.263Z",
+  "updated": "2026-11-17T14:06:05.454Z",
   "feeds": [
     {
       "source": "Google Ads",
