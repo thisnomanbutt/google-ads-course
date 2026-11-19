@@ -35,7 +35,27 @@
   ],
   "entries": [
     {
-      "id": "google-ads-2026-11-16-0",
+      "id": "google-ads-2026-11-18-0",
+      "date": "2026-11-18",
+      "type": "news",
+      "source": "Google Ads",
+      "title": "Win the holiday shopping season with November’s Demand Gen Drop.",
+      "body": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Demand_Gen_Drop_-_November_2026.max-600x600.format-webp.webp\">Take advantage of the holiday peak with YouTube’s November Demand Gen Drop.",
+      "url": "https://blog.google/products/ads-commerce/demand-gen-drop-november-2026/",
+      "live": true
+    },
+    {
+      "id": "marketing-platform-2026-11-18-0",
+      "date": "2026-11-18",
+      "type": "news",
+      "source": "Marketing Platform",
+      "title": "Drive your best ROI reaching new holiday shoppers with November’s Google Marketing Platform Drop.",
+      "body": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ss_0108-GMP_Drop_November___Des.max-600x600.format-webp.webp\">Boost holiday ROI with November 2026 Google Marketing Platform updates, including Spotify audiences, Pinterest inventory, and Loblaw integration. Get the details.",
+      "url": "https://blog.google/products/marketingplatform/360/google-marketing-platform-drop-november/",
+      "live": true
+    },
+    {
+      "id": "google-ads-2026-11-16-1",
       "date": "2026-11-16",
       "type": "news",
       "source": "Google Ads",
@@ -55,7 +75,7 @@
       "live": true
     },
     {
-      "id": "google-ads-2026-11-12-1",
+      "id": "google-ads-2026-11-12-2",
       "date": "2026-11-12",
       "type": "news",
       "source": "Google Ads",
@@ -85,7 +105,7 @@
       "live": true
     },
     {
-      "id": "google-ads-2026-11-09-2",
+      "id": "google-ads-2026-11-09-3",
       "date": "2026-11-09",
       "type": "news",
       "source": "Google Ads",
@@ -155,7 +175,7 @@
       "live": true
     },
     {
-      "id": "google-ads-2026-10-28-3",
+      "id": "google-ads-2026-10-28-4",
       "date": "2026-10-28",
       "type": "news",
       "source": "Google Ads",
@@ -165,7 +185,7 @@
       "live": true
     },
     {
-      "id": "google-ads-2026-10-28-4",
+      "id": "google-ads-2026-10-28-5",
       "date": "2026-10-28",
       "type": "news",
       "source": "Google Ads",
@@ -185,7 +205,7 @@
       "live": true
     },
     {
-      "id": "marketing-platform-2026-10-22-0",
+      "id": "marketing-platform-2026-10-22-1",
       "date": "2026-10-22",
       "type": "news",
       "source": "Marketing Platform",
@@ -195,7 +215,7 @@
       "live": true
     },
     {
-      "id": "google-ads-2026-10-21-5",
+      "id": "google-ads-2026-10-21-6",
       "date": "2026-10-21",
       "type": "news",
       "source": "Google Ads",
@@ -205,23 +225,13 @@
       "live": true
     },
     {
-      "id": "google-ads-2026-10-20-6",
+      "id": "google-ads-2026-10-20-7",
       "date": "2026-10-20",
       "type": "news",
       "source": "Google Ads",
       "title": "Expanding our defenses against financial scam ads",
       "body": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/financial_protection_US__Canada.max-600x600.format-webp.webp\">We’re introducing new safeguards in early 2027 to help protect people in the U.S. and Canada from financial scams.",
       "url": "https://blog.google/products/ads-commerce/financial-services-verification-united-states-canada/",
-      "live": true
-    },
-    {
-      "id": "google-ads-2026-10-15-7",
-      "date": "2026-10-15",
-      "type": "news",
-      "source": "Google Ads",
-      "title": "An intelligent new shopping cart",
-      "body": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/GlobalCart_Hero.max-600x600.format-webp.webp\">Universal Cart helps make holiday shopping easier. It’s now available in the U.S. across Search and the Gemini app.",
-      "url": "https://blog.google/products-and-platforms/products/shopping/universal-cart-launch/",
       "live": true
     },
     {
@@ -235,7 +245,7 @@
       "live": true
     },
     {
-      "id": "marketing-platform-2026-09-28-1",
+      "id": "marketing-platform-2026-09-28-2",
       "date": "2026-09-28",
       "type": "news",
       "source": "Marketing Platform",
@@ -245,7 +255,7 @@
       "live": true
     },
     {
-      "id": "marketing-platform-2026-09-10-2",
+      "id": "marketing-platform-2026-09-10-3",
       "date": "2026-09-10",
       "type": "news",
       "source": "Marketing Platform",
@@ -255,7 +265,7 @@
       "live": true
     },
     {
-      "id": "marketing-platform-2026-08-10-3",
+      "id": "marketing-platform-2026-08-10-4",
       "date": "2026-08-10",
       "type": "news",
       "source": "Marketing Platform",
@@ -265,23 +275,13 @@
       "live": true
     },
     {
-      "id": "marketing-platform-2026-06-11-4",
+      "id": "marketing-platform-2026-06-11-5",
       "date": "2026-06-11",
       "type": "news",
       "source": "Marketing Platform",
       "title": "We’re bringing Walmart Connect to Display & Video 360.",
       "body": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/heroimagenoarrownoborder.max-600x600.format-webp.webp\">The new partnership will help brands reach high-intent shoppers through YouTube campaigns and measure their results.",
       "url": "https://blog.google/products/marketingplatform/360/walmart-connect/",
-      "live": true
-    },
-    {
-      "id": "marketing-platform-2026-05-20-5",
-      "date": "2026-05-20",
-      "type": "news",
-      "source": "Marketing Platform",
-      "title": "Turn data into decisions with unified measurement.",
-      "body": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/GML_Measurement_social.max-600x600.format-webp.webp\">We’re bringing Meridian, our open-source MMM to Google Analytics and introducing Future Long-Term Conversions.",
-      "url": "https://blog.google/products/marketingplatform/analytics/meridian-google-analytics-360/",
       "live": true
     },
     {
@@ -422,7 +422,7 @@
       }
     }
   ],
-  "updated": "2026-11-18T13:39:20.294Z",
+  "updated": "2026-11-19T14:06:29.401Z",
   "feeds": [
     {
       "source": "Google Ads",
